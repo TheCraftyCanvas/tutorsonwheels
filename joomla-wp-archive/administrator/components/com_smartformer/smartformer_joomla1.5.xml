@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>Smart Former</name>
+	<creationDate>28/02/2011</creationDate>
+	<author>IToris Co.</author>
+	<authorEmail>sales@itoris.com</authorEmail>
+	<authorUrl>www.itoris.com</authorUrl>
+	<copyright>IToris Co.</copyright>
+	<license>GNU/GPL</license>
+	<version>2.4.1</version>
+	<description>Smart Former is the component for generating forms. Usable and intuitively obvious, it allows creating forms in minutes, making a reality of your dreams of ideal website. Newbies will find no problems with Smart Former, and gurus will consider it to be a good way to optimize and minimize their routine work. Please download the User manual and Flash video to see all tips and tricks of forms` creation.</description>
+ 	<files>
+ 		<filename>engine.php</filename>
+ 		<filename>smartformer.php</filename>
+		<filename>captcha/alikon/Arial.ttf</filename>
+		<filename>captcha/alikon/captcha.php</filename>
+		<filename>captcha/alikon/tmp.png</filename>
+		<filename>captcha/captchaform/Arial.ttf</filename>
+		<filename>captcha/captchaform/bg/bg01.png</filename>
+		<filename>captcha/captchaform/bg/bg02.png</filename>
+		<filename>captcha/captchaform/bg/bg03.png</filename>
+		<filename>captcha/captchaform/bg/bg04.png</filename>
+		<filename>captcha/captchaform/bg/bg05.png</filename>
+		<filename>captcha/captchaform/bg/bg06.png</filename>
+		<filename>captcha/captchaform/bg/bg07.png</filename>
+		<filename>captcha/captchaform/captchaform4.php</filename>
+		<filename>captcha/captchaform/captchaform5.php</filename>
+		<filename>captcha/captchaform/tmp.png</filename>
+		<filename>captcha/securimage/elephant.ttf</filename>
+		<filename>captcha/securimage/LICENSE.txt</filename>
+		<filename>captcha/securimage/README.txt</filename>
+		<filename>captcha/securimage/securimage.php</filename>
+		<filename>captcha/securimage/tmp.png</filename>
+		<filename>addons/smartformer.php</filename>
+		<filename>addons/smartformer.a</filename>
+		<filename>addons/mod_smartformer/index.html</filename>
+		<filename>addons/mod_smartformer/mod_smartformer.php</filename>
+		<filename>addons/mod_smartformer/mod_smartformer.a</filename>
+		<filename>files/index.htm</filename>
+		<filename>calendar/calendar-mos.css</filename>
+		<filename>calendar/calendar.js</filename>
+		<filename>calendar/calendar_mini.js</filename>
+		<filename>calendar/index.html</filename>
+		<filename>calendar/README</filename>
+		<filename>calendar/lang/calendar-en.js</filename>
+		<filename>calendar/lang/index.html</filename>
+	</files>
+	<installfile>install.smartformer.php</installfile>
+	<uninstallfile>uninstall.smartformer.php</uninstallfile>
+	<uninstall>
+		<queries>
+		</queries>
+	</uninstall>
+	<administration>
+		<menu>Smart Former</menu>
+		<files>
+			<filename>admin.smartformer.html.php</filename>
+			<filename>admin.smartformer.php</filename>
+			<filename>config.xml</filename>
+			<filename>smartformer_joomla1.5.xml</filename>
+			<filename>toolbar.smartformer.php</filename>
+			<filename>plugins.zip</filename>
+			<filename>admin/background.png</filename>
+			<filename>admin/background2.png</filename>
+			<filename>admin/button.png</filename>
+			<filename>admin/captcha.png</filename>
+			<filename>admin/checkbox.png</filename>
+			<filename>admin/Combobox.png</filename>
+			<filename>admin/dir_up.png</filename>
+			<filename>admin/edit.php</filename>
+			<filename>admin/editbox.png</filename>
+			<filename>admin/file.png</filename>
+			<filename>admin/folder.png</filename>
+			<filename>admin/grid.png</filename>
+			<filename>admin/image.png</filename>
+			<filename>admin/itoris_logo.png</filename>
+			<filename>admin/link.png</filename>
+			<filename>admin/mask.gif</filename>
+			<filename>admin/maximize.gif</filename>
+			<filename>admin/minimize.gif</filename>
+			<filename>admin/password.png</filename>
+			<filename>admin/radio.png</filename>
+			<filename>admin/Selectbox.png</filename>
+			<filename>admin/static.png</filename>
+			<filename>admin/textarea.png</filename>
+			<filename>admin/uparrow.png</filename>
+			<filename>admin/upload.png</filename>
+			<filename>admin/lic</filename>
+			<filename>admin/x.png</filename>
+		</files>
+	</administration>
+</install>

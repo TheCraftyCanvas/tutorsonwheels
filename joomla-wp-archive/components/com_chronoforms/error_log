@@ -1,0 +1,710 @@
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 29
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 32
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JRequest::clean() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 33
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 463
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 35
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 38
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 39
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 46
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 47
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 50
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 53
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 54
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getApplication() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 15
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Redefining already defined constructor for class JObject in /home5/tutorson/public_html/libraries/joomla/base/object.php on line 57
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JApplication::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/factory.php on line 46
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JApplicationHelper::getClientInfo() should not be called statically in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 132
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Declaration of JSite::getRouter() should be compatible with that of JApplication::getRouter() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Declaration of JSite::getPathWay() should be compatible with that of JApplication::getPathway() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Declaration of JSite::getMenu() should be compatible with that of JApplication::getMenu() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 745
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::_createConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 73
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JUtility::getHash() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 101
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/utilities/utility.php on line 111
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 783
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::_createSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 94
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 501
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Declaration of JSession::get() should be compatible with that of JObject::get() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Declaration of JSession::set() should be compatible with that of JObject::set() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 19
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JSession::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 507
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JSessionStorage::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 108
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFilterInput::clean() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage.php on line 57
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 64
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 268
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::_createDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 271
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 551
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JDatabase::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 563
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JError::isError() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 565
+[25-Nov-2013 12:48:29] PHP Strict Standards:  is_a(): Deprecated. Please use the instanceof operator in /home5/tutorson/public_html/libraries/joomla/error/error.php on line 80
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 69
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JPath::find() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JTable::addIncludePath() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/html/parameter.php on line 21
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 786
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 16
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JRequest::getVar() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 32
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JRequest::_cleanVar() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 140
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFilterInput::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 577
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JRequest::_stripSlashesRecursive() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 144
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 84
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 89
+[25-Nov-2013 12:48:29] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 29
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 32
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JRequest::clean() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 33
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 463
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 35
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 38
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 39
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 46
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 47
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 50
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 53
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 54
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getApplication() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 15
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Redefining already defined constructor for class JObject in /home5/tutorson/public_html/libraries/joomla/base/object.php on line 57
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JApplication::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/factory.php on line 46
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JApplicationHelper::getClientInfo() should not be called statically in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 132
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Declaration of JSite::getRouter() should be compatible with that of JApplication::getRouter() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Declaration of JSite::getPathWay() should be compatible with that of JApplication::getPathway() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Declaration of JSite::getMenu() should be compatible with that of JApplication::getMenu() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 745
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::_createConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 73
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JUtility::getHash() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 101
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/utilities/utility.php on line 111
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 783
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::_createSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 94
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 501
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Declaration of JSession::get() should be compatible with that of JObject::get() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Declaration of JSession::set() should be compatible with that of JObject::set() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 19
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JSession::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 507
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JSessionStorage::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 108
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFilterInput::clean() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage.php on line 57
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 64
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 268
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::_createDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 271
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 551
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JDatabase::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 563
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JError::isError() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 565
+[25-Nov-2013 14:29:06] PHP Strict Standards:  is_a(): Deprecated. Please use the instanceof operator in /home5/tutorson/public_html/libraries/joomla/error/error.php on line 80
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 69
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JPath::find() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JTable::addIncludePath() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/html/parameter.php on line 21
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 786
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 16
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JRequest::getVar() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 32
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JRequest::_cleanVar() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 140
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFilterInput::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 577
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JRequest::_stripSlashesRecursive() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 144
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 84
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 89
+[25-Nov-2013 14:29:06] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 29
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 32
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JRequest::clean() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 33
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 463
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 35
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 38
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 39
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 46
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 47
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 50
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 53
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 54
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getApplication() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 15
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Redefining already defined constructor for class JObject in /home5/tutorson/public_html/libraries/joomla/base/object.php on line 57
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JApplication::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/factory.php on line 46
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JApplicationHelper::getClientInfo() should not be called statically in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 132
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Declaration of JSite::getRouter() should be compatible with that of JApplication::getRouter() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Declaration of JSite::getPathWay() should be compatible with that of JApplication::getPathway() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Declaration of JSite::getMenu() should be compatible with that of JApplication::getMenu() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 745
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::_createConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 73
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JUtility::getHash() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 101
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/utilities/utility.php on line 111
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 783
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::_createSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 94
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 501
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Declaration of JSession::get() should be compatible with that of JObject::get() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Declaration of JSession::set() should be compatible with that of JObject::set() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 19
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JSession::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 507
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JSessionStorage::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 108
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFilterInput::clean() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage.php on line 57
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 64
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 268
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::_createDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 271
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 551
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JDatabase::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 563
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JError::isError() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 565
+[25-Nov-2013 17:09:23] PHP Strict Standards:  is_a(): Deprecated. Please use the instanceof operator in /home5/tutorson/public_html/libraries/joomla/error/error.php on line 80
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 69
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JPath::find() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JTable::addIncludePath() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/html/parameter.php on line 21
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 786
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 16
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JRequest::getVar() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 32
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JRequest::_cleanVar() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 140
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFilterInput::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 577
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JRequest::_stripSlashesRecursive() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 144
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 84
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 89
+[25-Nov-2013 17:09:23] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 29
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 32
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JRequest::clean() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 33
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 463
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 35
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 38
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 39
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 46
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 47
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 50
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 53
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 54
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getApplication() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 15
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Redefining already defined constructor for class JObject in /home5/tutorson/public_html/libraries/joomla/base/object.php on line 57
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JApplication::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/factory.php on line 46
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JApplicationHelper::getClientInfo() should not be called statically in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 132
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Declaration of JSite::getRouter() should be compatible with that of JApplication::getRouter() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Declaration of JSite::getPathWay() should be compatible with that of JApplication::getPathway() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Declaration of JSite::getMenu() should be compatible with that of JApplication::getMenu() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 745
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::_createConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 73
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JUtility::getHash() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 101
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/utilities/utility.php on line 111
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 783
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::_createSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 94
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 501
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Declaration of JSession::get() should be compatible with that of JObject::get() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Declaration of JSession::set() should be compatible with that of JObject::set() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 19
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JSession::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 507
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JSessionStorage::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 108
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFilterInput::clean() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage.php on line 57
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 64
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 268
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::_createDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 271
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 551
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JDatabase::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 563
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JError::isError() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 565
+[25-Nov-2013 17:09:28] PHP Strict Standards:  is_a(): Deprecated. Please use the instanceof operator in /home5/tutorson/public_html/libraries/joomla/error/error.php on line 80
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 69
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JPath::find() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JTable::addIncludePath() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/html/parameter.php on line 21
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 786
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 16
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JRequest::getVar() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 32
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JRequest::_cleanVar() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 140
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFilterInput::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 577
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JRequest::_stripSlashesRecursive() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 144
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 84
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 89
+[25-Nov-2013 17:09:28] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 29
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 32
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JRequest::clean() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 33
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 463
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 35
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 38
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 39
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 46
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 47
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 50
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 53
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/joomla/import.php on line 54
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getApplication() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 15
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Redefining already defined constructor for class JObject in /home5/tutorson/public_html/libraries/joomla/base/object.php on line 57
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JApplication::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/factory.php on line 46
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JApplicationHelper::getClientInfo() should not be called statically in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 132
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Declaration of JSite::getRouter() should be compatible with that of JApplication::getRouter() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Declaration of JSite::getPathWay() should be compatible with that of JApplication::getPathway() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Declaration of JSite::getMenu() should be compatible with that of JApplication::getMenu() in /home5/tutorson/public_html/includes/application.php on line 377
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 745
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::_createConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 73
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JUtility::getHash() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 101
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/utilities/utility.php on line 111
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 783
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::_createSession() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 94
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 501
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Declaration of JSession::get() should be compatible with that of JObject::get() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Declaration of JSession::set() should be compatible with that of JObject::set() in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 737
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 19
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JSession::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 507
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JSessionStorage::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/session.php on line 108
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFilterInput::clean() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage.php on line 57
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 64
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 268
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::_createDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 271
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 551
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JDatabase::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 563
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JError::isError() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/factory.php on line 565
+[25-Nov-2013 17:16:46] PHP Strict Standards:  is_a(): Deprecated. Please use the instanceof operator in /home5/tutorson/public_html/libraries/joomla/error/error.php on line 80
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 69
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JPath::find() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JTable::addIncludePath() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 91
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 71
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 161
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 138
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home5/tutorson/public_html/libraries/joomla/html/parameter.php on line 21
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home5/tutorson/public_html/libraries/loader.php on line 186
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/application/application.php on line 786
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getSession() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 16
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JRequest::getVar() should not be called statically in /home5/tutorson/public_html/components/com_chronoforms/chrono_verification.php on line 32
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JRequest::_cleanVar() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 140
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFilterInput::getInstance() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 577
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JRequest::_stripSlashesRecursive() should not be called statically in /home5/tutorson/public_html/libraries/joomla/environment/request.php on line 144
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 84
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JTable::getInstance() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/session/storage/database.php on line 89
+[25-Nov-2013 17:16:46] PHP Strict Standards:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home5/tutorson/public_html/libraries/joomla/database/table.php on line 112

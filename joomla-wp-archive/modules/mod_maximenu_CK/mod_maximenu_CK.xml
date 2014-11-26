@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Maxi Menu CK for Joomla!1.5</name>
+    <author>Cédric KEIFLIN</author>
+    <creationDate>20 février 2010</creationDate>
+    <copyright>Cédric KEIFLIN</copyright>
+    <license>GNU/GPL 3 http://www.gnu.org/licenses/gpl.html</license>
+    <authorEmail>ced1870@gmail.com</authorEmail>
+    <authorUrl>http://www.joomlack.fr</authorUrl>
+    <version>4.33</version>
+    <description>MOD_MAXIMENUCK_DESC</description>
+    <files>
+        <filename module="mod_maximenu_CK">mod_maximenu_CK.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>logo.png</filename>
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+        <folder>themes</folder>
+        <folder>elements</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.mod_maximenu_CK.ini</language>
+        <language tag="fr-FR">fr-FR.mod_maximenu_CK.ini</language>
+    </languages>
+    <params addpath="/modules/mod_maximenu_CK/elements/">
+        <param name="menutype" type="mos_menu" default="mainmenu" label="MAXIMENUCK_NAME" description="MAXIMENUCK_NAME_DESC" />
+        <param name="menuid" type="text" default="maximenuCK" label="MAXIMENUCK_ID" description="MAXIMENUCK_ID_DESC" />
+        <param name="startLevel" type="text" default="0" size="5" label="MAXIMENUCK_STARTLEVEL" description="MAXIMENUCK_STARTLEVEL_DESC" />
+	<param name="endLevel" type="text" default="10" size="5" label="MAXIMENUCK_ENDLEVEL" description="MAXIMENUCK_ENDLEVEL_DESC" />
+        <param name="dependantitems" type="radio" default="0" label="MAXIMENUCK_DEPENDANT" description="MAXIMENUCK_DEPENDANT_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="@spacer" type="spacer" default="MAXIMENUCK_SPACER_STYLES" label="" description="" />
+        <param name="moduleclass_sfx" type="text" default="" label="MAXIMENUCK_SUFFIX" description="MAXIMENUCK_SUFFIX_DESC" />
+        <param name="theme" type="folderlist" directory="modules/mod_maximenu_CK/themes" hide_none="true" hide_default="true" label="MAXIMENUCK_THEME" description="MAXIMENUCK_THEME_DESC" />
+        <param name="usecss" type="radio" default="1" label="MAXIMENUCK_USECSS" description="MAXIMENUCK_USECSS_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="orientation" type="radio" default="0" label="MAXIMENUCK_ORIENTATION" description="MAXIMENUCK_ORIENTATION_DESC">
+            <option value="0">Horizontal</option>
+            <option value="1">Vertical</option>
+        </param>
+        <param name="zindexlevel" type="text" default="10" label="MAXIMENUCK_ZINDEXLEVEL" description="MAXIMENUCK_ZINDEXLEVEL_DESC" />
+        <param name="imagerollprefix" type="text" default="_hover" label="MAXIMENUCK_ROLLOVERPREFIX" description="MAXIMENUCK_ROLLOVERPREFIX_DESC" />
+        <param name="@spacer" type="spacer" default="MAXIMENUCK_SPACER_MOOTOOLS" label="" description="" />
+        <param name="usemootools" type="radio" default="1" label="MAXIMENUCK_USEMOOTOOLS" description="MAXIMENUCK_USEMOOTOOLS_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="style" type="radio" default="moomenu" label="MAXIMENUCK_STYLE" description="MAXIMENUCK_STYLE_DESC">
+            <option value="moomenu">MOOMENU</option>
+            <option value="click">CLICK</option>
+            <option value="clickclose">CLOSECLICK</option>
+        </param>
+        <param name="opentype" type="radio" default="open" label="MAXIMENUCK_OPENTYPE" description="MAXIMENUCK_OPENTYPE_DESC">
+            <option value="open">OPEN</option>
+            <option value="slide">SLIDE</option>
+        </param>
+        <param name="direction" type="radio" default="normal" label="MAXIMENUCK_DIRECTION" description="MAXIMENUCK_DIRECTION_DESC">
+            <option value="normal">NORMAL</option>
+            <option value="inverse">INVERSE</option>
+        </param>
+        <param name="directionoffset1" type="text" default="30" label="MAXIMENUCK_DIRECTIONOFFSET1" description="MAXIMENUCK_DIRECTIONOFFSET1_DESC" />
+        <param name="directionoffset2" type="text" default="30" label="MAXIMENUCK_DIRECTIONOFFSET2" description="MAXIMENUCK_DIRECTIONOFFSET2_DESC" />
+        <param name="testoverflow" type="radio" default="1" label="MAXIMENUCK_TESTOVERFLOW" description="MAXIMENUCK_TESTOVERFLOW_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="useopacity" type="radio" default="0" label="MAXIMENUCK_USEOPACITY" description="MAXIMENUCK_USEOPACITY_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="dureeout" type="text" default="500" label="MAXIMENUCK_DUREEOUT" description="MAXIMENUCK_DUREEOUT_DESC" />
+        <param name="mooduration" type="text" default="500" label="MAXIMENUCK_MOODUREE" description="MAXIMENUCK_MOODUREE_DESC" />
+        <param name="mootransition" type="list" default="Quad" label="MAXIMENUCK_TRANSITION" description="MAXIMENUCK_TRANSITION_DESC">
+            <option value="Quad">Quadratic</option>
+            <option value="Cubic">Cubic</option>
+            <option value="Quart">Quartic</option>
+            <option value="Quint">Quintic</option>
+            <option value="Sine">Sinusoidal</option>
+            <option value="Expo">Exponential</option>
+            <option value="Circ">Circular</option>
+            <option value="Bounce">Bouncing</option>
+            <option value="Back">Back</option>
+            <option value="Elastic">Elastic</option>
+        </param>
+        <param name="mooease" type="list" default="easeOut" label="MAXIMENUCK_TRANSITIONEASE" description="MAXIMENUCK_TRANSITIONEASE_DESC">
+            <option value="easeIn">easeIn</option>
+            <option value="easeOut">easeOut</option>
+            <option value="easeInOut">easeInOut</option>
+        </param>
+        <param name="usefancy" type="radio" default="1" label="MAXIMENUCK_USEFANCY" description="MAXIMENUCK_USEFANCY_DESC">
+            <option value="0">No</option>MAXIMENUCK_USEFANCY
+            <option value="1">Yes</option>
+        </param>
+        <param name="fancyduration" type="text" default="500" label="MAXIMENUCK_FANCYDUREE" description="MAXIMENUCK_FANCYDUREE_DESC" />
+        <param name="fancytransition" type="list" default="Quad" label="MAXIMENUCK_FANCYTRANSITION" description="MAXIMENUCK_FANCYTRANSITION_DESC">
+            <option value="Quad">Quadratic</option>
+            <option value="Cubic">Cubic</option>
+            <option value="Quart">Quartic</option>
+            <option value="Quint">Quintic</option>
+            <option value="Sine">Sinusoidal</option>
+            <option value="Expo">Exponential</option>
+            <option value="Circ">Circular</option>
+            <option value="Bounce">Bouncing</option>
+            <option value="Back">Back</option>
+            <option value="Elastic">Elastic</option>
+        </param>
+        <param name="fancyease" type="list" default="easeOut" label="MAXIMENUCK_FANCYTRANSITIONEASE" description="MAXIMENUCK_FANCYTRANSITIONEASE_DESC">
+            <option value="easeIn">easeIn</option>
+            <option value="easeOut">easeOut</option>
+            <option value="easeInOut">easeInOut</option>
+        </param>
+
+        <param name="@spacer" type="spacer" default="MAXIMENUCK_SPACER_IMAGES" label="" description="" />
+        
+        <param name="imageonly" type="radio" default="0" label="MAXIMENUCK_IMAGEONLY" description="MAXIMENUCK_IMAGEONLY_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="menu_images_align" type="radio" default="0" label="MAXIMENUCK_IMAGEALIGN" description="MAXIMENUCK_IMAGEALIGN_DESC">
+            <option value="0">Left</option>
+            <option value="1">Right</option>
+        </param>
+
+        <param name="@spacer" type="spacer" default="MAXIMENUCK_SPACER_ADVANCED" label="" description="" />
+        <param name="forcetitle" type="radio" default="0" label="MAXIMENUCK_FORCETITLE" description="MAXIMENUCK_FORCETITLE_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="routehomepage" type="radio" default="0" label="MAXIMENUCK_ROUTEHOMEPAGE" description="MAXIMENUCK_ROUTEHOMEPAGE_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+         <param name="@spacer" type="spacer" default="MAXIMENUCK_SPACER_VM" label="" description="" />
+         <param name="usevm" type="radio" default="0" label="MAXIMENUCK_USEVM" description="MAXIMENUCK_USEVM_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="usevmimages" type="radio" default="0" label="MAXIMENUCK_USEVMIMAGES" description="MAXIMENUCK_USEVMIMAGES_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="usevmprefix" type="radio" default="0" label="MAXIMENUCK_USEVMPREFIX" description="MAXIMENUCK_USEVMPREFIX_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="vmimageprefix" type="text" default="mini_" label="MAXIMENUCK_VMIMAGEPREFIX" description="MAXIMENUCK_VMIMAGEPREFIX_DESC" />
+        
+        <param name="@spacer" type="spacer" default="MAXIMENUCK_SPACER_COLORS" label="" description="" />
+        <param name="menubgcolor" type="cp" default=""  size=""	label="MAXIMENUCK_MENUBGCOLOR" description="MAXIMENUCK_MENUBGCOLOR_DESC" />
+        <param name="titlescolor" type="cp" default=""  size=""	label="MAXIMENUCK_TITLESCOLOR" description="MAXIMENUCK_TITLESCOLOR_DESC" />
+        <param name="descscolor" type="cp" default=""  size=""	label="MAXIMENUCK_DESCSCOLOR" description="MAXIMENUCK_DESCSCOLOR_DESC" />
+        <param name="titleshovercolor" type="cp" default=""  size=""	label="MAXIMENUCK_TITLESHOVERCOLOR" description="MAXIMENUCK_TITLESHOVERCOLOR_DESC" />
+        <param name="descshovercolor" type="cp" default=""  size=""	label="MAXIMENUCK_DESCSHOVERCOLOR" description="MAXIMENUCK_DESCSHOVERCOLOR_DESC" />
+    </params>
+
+</install>

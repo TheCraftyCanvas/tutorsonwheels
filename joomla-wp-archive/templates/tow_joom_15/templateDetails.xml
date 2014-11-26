@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<install version="1.5" type="template">       
+<name>TOW_JOOM_15</name>       
+<creationDate>August 2012</creationDate>       
+<author>Emsoftware</author>       
+<copyright>GPL</copyright>       
+<authorEmail>info@emsoftware.in</authorEmail>       
+<authorUrl>www.emsoftware.in</authorUrl>       
+<version>1.0</version>       
+<description>Tutors On Wheels tutoring website design</description>       
+<files>             
+<filename>index.php</filename>             
+<filename>templateDetails.xml</filename> 
+<filename>template_preview.png</filename>            
+<folder>images</folder>
+<folder>css</folder>
+</files>       
+<positions>             
+<position>pos-1</position>
+<position>pos-2</position>
+<position>pos-3</position>
+<position>pos-4</position>
+<position>menu</position>
+<position>leftmenu</position>
+<position>rightmenu</position>
+<position>slider</position>
+<position>pos-5</position>
+<position>pos-6</position>
+<position>pos-7</position>
+<position>pos-8</position>
+<position>pos-9</position>
+<position>pos-10</position>
+<position>pos-11</position>
+<position>pos-12</position>
+<position>pos-13</position>
+<position>pos-14</position>
+<position>pos-15</position>
+<position>pos-tab</position>
+<position>footer-1</position>
+<position>footer-2</position>
+<position>footer-3</position>
+<position>toll</position>
+</positions>
+</install>

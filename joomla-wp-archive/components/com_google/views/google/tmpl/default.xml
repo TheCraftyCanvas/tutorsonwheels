@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Google Layout">
+		<message>
+			<![CDATA[STANDARD GOOGLE LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Google Layout</name>
+		<description>STANDARD POLL LAYOUT DESC</description>
+		<url addpath="/administrator/components/com_google/elements">
+			<param name="id" type="google" default="0" label="Google" description="A Google" />
+		</url>
+		<params />
+	</state>
+</metadata>

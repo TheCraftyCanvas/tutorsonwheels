@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5.2" type="plugin" group="system" method="upgrade">
+	<name>Plugin Include Component</name>
+	<author>Mike Reumer</author>
+	<creationDate>28 May 2012</creationDate>
+	<copyright>Copyright (C) 2010 Mike Reumer</copyright>
+	<license>http://www.gnu.org/licenses/lgpl.html LGPL</license>
+	<authorEmail>tech@reumer.net</authorEmail>
+	<authorUrl>http://tech.reumer.net</authorUrl>
+	<version>1.13</version>
+	<description><![CDATA[<h1>Plugin include component</h1><p><br/>Include any component in a article (without iframe).<br />Code is {component url='url'}<br /> Replace url with the url to your component and include index.php?<br />For example:<br />{component url='index.php?option=com_component&amp;Itemid=73&amp;parameters....' }<br /><br />You maybe  need to change the url when using an SEF component. If you get a component not found when using normal url then use the SEF url. So not:<br />index.php?option=com_contact&amp;lang=en&amp;view=category<br />but:<br />Contact-Us/category/</p>]]></description>
+	<files>
+		<filename plugin="plugin_component">plugin_component.php</filename>
+	</files>
+	<params>
+	    <param name="ignore_script" type="textarea" rows="5" cols="40" default="" label="Ignore scripts" description="Add here the scripts that has to be ignored. Enter each relative url on a new line" />
+	    <param name="ignore_allscripts" type="radio" default="0" label="Ignore all scripts" description="Ignore all hjavascripts and do not add them to the page where the component is included">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	    <param name="ignore_style" type="textarea" rows="5" cols="40" default="" label="Ignore stylesheets" description="Add here the stylesheets that has to be ignored. Enter each relative url on a new line" />
+	    <param name="ignore_allstyles" type="radio" default="0" label="Ignore all styles" description="Ignore all css styles and do not add them to the page where the component is included">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="method" type="radio" default="file_get_contents" label="Method" description="You can choose file_get_contents or curl. Curl has the best results, but requires curl library installed at PHP webserver">
+			<option value="file_get_contents">file_get_contents</option>
+			<option value="curl">curl</option>
+		</param>
+	    <param name="closesession" type="radio" default="0" label="Close session" description="Close the session in Joomla to pass it to other component.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	    <param name="ignoresef" type="radio" default="0" label="Ignore sef" description="Ignore sef and use normal parameter substitution.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	    <param name="cbreplace" type="radio" default="0" label="CB Token replace" description="The plugin can replace the CB Tokens so it ">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	    <param name="urlprint" type="radio" default="1" label="Use print" description="Use the print parameter in the url to call the extension to retieve only the extension and not other content">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="replprint" type="radio" default="1" label="Remove print" description="Remove the print parameter in all links on the page (default) so links goto pages with template css include instead of only print.css.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	    <param name="repltmpl" type="radio" default="1" label="remove tmpl" description="Remove the tmpl parameter in all links on the page (default) so links goto pages with full layout (header/modules) instead of only the component output.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="runadmin" type="radio" default="0" label="Run in Admin" description="USE WITH EXTREME CAUTION. Run the plugin in administrator of Joomla too. Only set this to yes if you know the plugin works in the frontend correctly and do it first on a test domain where you also have FTP acces or database to recover acces to the administrator!">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="caching" type="radio" default="0" label="Caching" description="Use caching and override the general Joomla setting. If caching is enabled in Joomla it will use caching even if this parameter is set to off.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>SmartFormer</name>
+	<author>IToris Co.</author>
+	<creationDate>May 2009</creationDate>
+	<copyright>(C) 2008-2009 IToris Co.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>sales@itoris.com</authorEmail>
+	<authorUrl>www.itoris.com</authorUrl>
+	<version>1.5.0</version>
+	<description>SmartFormer</description>
+	<files>
+		<filename module="mod_login">mod_smartformer.php</filename>
+	</files>
+	<params>
+		<param name="formid" type="text" default="" label="Form ID" description="Form ID" />
+	</params>
+</install>

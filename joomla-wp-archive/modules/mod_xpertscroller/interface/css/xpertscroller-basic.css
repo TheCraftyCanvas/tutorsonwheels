@@ -1,0 +1,102 @@
+/**
+ * @package XpertScroller
+ * @version 1.3
+ * @author ThemeXpert http://www.themexpert.com
+ * @copyright Copyright (C) 2009 - 2011 ThemeXpert
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ *
+ */
+/*
+    root element for the scrollable.
+    when scrolling occurs this element stays still.
+*/
+.scroller {
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    /* custom decorations */
+    border:1px solid #ccc;
+    background: url(../img/gradient.jpg) repeat-x #fff;
+}
+
+.scroller .items {
+    /* this cannot be too large */
+    position:absolute;
+    clear:both;
+}
+
+.item:hover{background: #eee;}
+.padding{padding: 10px;}
+
+.item h4{font-size: 15px; margin: 5px 0;}
+.item h4 a{text-decoration: none;}
+
+.xs_intro{font-size: 12px;}
+
+/* single scrollable item */
+.scroller img {
+    background-color:#fff;
+    padding:2px;
+    border:1px solid #ccc;
+}
+/*Image postion left*/
+img.left{float: left; margin-right: 15px;}
+/*Image postion right*/
+img.right{float: right; margin-left: 15px;}
+
+/* active item */
+.scroller .active {
+    border:2px solid #000;
+    position:relative;
+    cursor:default;
+}
+/*Navigation Button common class*/
+a.browse {
+    background:url(../img/hori_large.png) no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    float:left;
+    cursor:pointer;
+    font-size:1px;
+}
+/*Basic Horizontal Style*/
+.basic_h .items .pane {float:left;}
+.basic_h .pane .item{float: left;}
+
+/* this makes it possible to add next button beside scrollable */
+.basic_h .scroller {float:left;}
+
+/* right */
+.basic_h a.next            { background-position: 0 -30px; clear:right; margin-right: 0px;}
+.basic_h a.next:hover      { background-position:-30px -30px; }
+.basic_h a.next:active     { background-position:-60px -30px; } 
+
+/* left */
+.basic_h a.prev            { margin-left: 0px; } 
+.basic_h a.prev:hover      { background-position:-30px 0; }
+.basic_h a.prev:active     { background-position:-60px 0; }
+
+/*Basic Vertical Style*/
+/* prev, next, prevPage and nextPage buttons */
+.basic_v a.browse{margin: 5px auto;}
+.basic_v .scroller{margin: 0 auto;}
+
+/* up and down */
+.basic_v a.next, .basic_v a.prev        { 
+    background:url(../img/vert_large.png) no-repeat; 
+    float: none;
+}
+
+/* up */
+.basic_v a.prev:hover      { background-position:-30px 0; }
+.basic_v a.prev:active     { background-position:-60px 0; }
+
+/* down */
+.basic_v a.next            { background-position: 0 -30px; }
+.basic_v a.next:hover      { background-position:-30px -30px; }
+.basic_v a.next:active     { background-position:-60px -30px; } 
+
+
+/* disabled navigational button */
+a.disabled                 {visibility:hidden !important;}     

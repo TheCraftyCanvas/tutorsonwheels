@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" group="" version="1.5.0" method="upgrade">
+	<name>FL Latest Articles</name>
+<author>FenrisLab</author>
+<creationDate>2010-03-08</creationDate>
+<copyright>Copyright (C) 2009-2010 FenrisLab. All rights reserved.</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<authorEmail>fenris@fenrislab.com</authorEmail>
+<authorUrl>www.fenrislab.com</authorUrl>
+<version>1.5</version>
+<description>FENRISLATESTINSTALLED</description>
+	<files>
+		<filename module="mod_fl_latest">mod_fl_latest.xml</filename>
+		<filename module="mod_fl_latest">mod_fl_latest.php</filename>
+		<filename module="mod_fl_latest">helper.php</filename>
+		<filename module="mod_fl_latest">index.html</filename>
+		<filename module="mod_fl_latest">tmpl/index.html</filename>
+		<filename module="mod_fl_latest">tmpl/default.php</filename>
+		<filename module="mod_fl_latest">assets/css/mod_fl_latest.css</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_fl_latest.ini</language>
+		<language tag="cs-CZ">cs-CZ.mod_fl_latest.ini</language>
+	</languages>
+	<params>
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default 5)" />
+		<param name="ordering" type="list" default="create_dsc" label="Ordering" description="Ordering options">
+			<option value="c_dsc">Recently Added First</option>
+			<option value="m_dsc">Recently Modified First</option>
+	  	</param>
+		<param name="user_id" type="list" default="0" label="Authors" description="A filter for the authors">
+			<option value="0">Anyone</option>
+			<option value="by_me">Added or modified by me</option>
+			<option value="not_me">Not added or modified by me</option>
+	  	</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_front" type="radio" default="1" label="Frontpage Items" description="PARAMFRONTPAGEITEMS">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="secid" type="text" default="" label="Section ID" description="PARAMSECTIONID" />
+		<param name="catid" type="text" default="" label="Category ID" description="PARAMCATEGORYID" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="style" type="list" default="1" label="Style" description="Select style for display.">
+			<option value="0">1 line - link</option>
+			<option value="1">1 line - link (date)</option>
+			<option value="2">1 line - link (author)</option>
+			<option value="3">1 line - link (date - author)</option>
+			<option value="4">1 line - link (author - date)</option>
+			<option value="5">2 lines - link / date</option>
+			<option value="6">2 lines - link / author</option>
+			<option value="7">2 lines - link / date - author</option>
+			<option value="8">2 lines - link / author - date</option>
+			<option value="9">2 lines - link / (date)</option>
+			<option value="10">2 lines - link / (author)</option>
+			<option value="11">2 lines - link / (date - author)</option>
+			<option value="12">2 lines - link / (author - date)</option>
+			<option value="13">2 lines - date / link</option>
+			<option value="14">2 lines - author / link</option>
+			<option value="15">2 lines - date - author / link</option>
+			<option value="16">2 lines - author - date / link</option>
+			<option value="17">2 lines - (date) / link</option>
+			<option value="18">2 lines - (author) / link</option>
+			<option value="19">2 lines - (date - author) / link</option>
+			<option value="20">2 lines - (author - date) / link</option>
+		</param>
+		<param name="typlist" type="radio" default="0" label="List" description="Choose whether display ordered or unordered list.">
+			<option value="0">Ordered</option>
+			<option value="1">Unordered</option>
+		</param>
+		<param name="cuclass" type="text" default="" label="Custom class" description="Custom class for the displayed list, example, if you use the template from YOOtheme, you may use class from typography of the template." />
+		<param name="font_size" type="text" default="80%" label="Font size" description="Font size for date and author in % or px." size="30" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="datetyp" type="radio" default="1" label="Display Date" description="Choose whether display date of the creation or date of the modification.">
+			<option value="0">Creation</option>
+			<option value="1">Modification</option>
+		</param>
+		<param name="fdate" type="text" default="%Y-%m-%d %H:%M:%S" label="Date/time format" description="Date/time in PHP format" size="30" />
+		<param name="usertyp" type="radio" default="1" label="Display Name" description="Choose whether display the real name, username or alias.">
+			<option value="0">Real name</option>
+			<option value="1">Username</option>
+			<option value="2">Alias</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

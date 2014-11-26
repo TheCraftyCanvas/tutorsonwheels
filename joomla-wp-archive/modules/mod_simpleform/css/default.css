@@ -1,0 +1,6 @@
+
+form.simpleForm{margin:10px 0;}
+form.simpleForm p{margin:10px 0;}
+form.simpleForm label{display:block;}
+form.simpleForm input[type=text], form.simpleForm textarea{width:200px;}
+

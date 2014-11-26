@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5">
+	<name>Amplify Contact</name>
+	<author>Allan Walker - Amplify</author>
+	<creationDate>v2- November 2008</creationDate>
+	<authorEmail>imail@projectamplify.com</authorEmail>
+	<authorUrl>www.projectamplify.com</authorUrl>
+	<version>1.5.3</version>
+	<description>A slick simple email contact form for Joomla 1.5. This module contact form has validation on the fields and allows you to have a quick contact form loading into a module position on your website. For more Joomla things, please visit http://www.projectamplify.com</description>
+	<files>
+		<filename module="mod_ampcontact">mod_ampcontact.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_ampcontact.js</filename>
+		<filename>mod_ampcontact.css</filename>
+	</files>
+	<params>
+		<param name="introtext" type="text" default="" label="Introduction Text" description="If you want to, this is where some text will appear (at the top of the form)." size="55" />
+		<param name="receipt_email" type="text" default="" label="Email Destination" description="Please enter a valid email address where the form will be sent to." size="35" />
+		<param name="subject" type="text" default="" label="Email subject" description="Please enter a subject for the email that will be sent." size="55" />	
+		<param name="thanks" type="text" default="" label="Thank you Message" description="Enter your thank you message which will be displayed after a successful email has been sent." size="55" />
+		<param name="error" type="text" default="" label="Error Message" description="Enter your error message which will be displayed if the details are incomplete or form could not send." size="55" />
+		<param name="submit_button" type="text" default="" label="Submit Button Text" description="Enter the text you would like to appear on the submit button" size="20" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Add a suffix to the module (if you need to) which will allow individual css styling" />
+		<param name="credit" type="radio" default="0" label="Display credit to the Author?" description="Choose to display a small credit notice back to Amplify, the authors of this module.">
+		<option value="0">Hide</option>
+		<option value="1">Show</option>
+		</param>
+	</params>
+</install>

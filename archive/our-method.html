@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Ecommerce">
+		<meta name="author" content="Ecommerce">
+		<title>Tutorsonwheels</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/bootstrap-override.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- jQuery library (served from Google) -->
+		<script type="text/javascript" src="slider/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- bxSlider Javascript file -->
+		<script type="text/javascript" src="slider/jquery.bxslider.min.js"></script>
+		<!-- bxSlider CSS file -->
+		<link href="slider/jquery.bxslider.css" rel="stylesheet" />
+		
+		<script type="text/javascript">
+			
+			$(function() {
+
+				var $el, leftPos, newWidth,
+				
+				$mainNav2 = $(".navbar-nav");
+				$mainNav2.append("<li id='magic-line-two'></li>");
+    
+				var $magicLineTwo = $("#magic-line-two");
+    
+				$magicLineTwo
+					.width($(".active").width())
+					.height($mainNav2.height())
+					.css("left", $(".active a").position().left)
+					.css("top", $(".active a").position().top)
+					.data("origLeft", $(".active a").position().left)
+					.data("origTop", $(".active a").position().top)
+					.data("origWidth", $magicLineTwo.width())
+					.data("origColor", $(".active a").attr("rel"));
+							
+				$(".navbar-nav a").hover(function() {
+					$el = $(this);
+					leftPos = $el.position().left;
+					topPos= $el.position().top;
+					newWidth = $el.parent().width();
+					$magicLineTwo.stop().animate({
+						left: leftPos,
+						top: topPos,
+						width: newWidth,
+						backgroundColor: $el.attr("rel")
+					})
+				}, function() {
+					$magicLineTwo.stop().animate({
+						left: $magicLineTwo.data("origLeft"),
+						width: $magicLineTwo.data("origWidth"),
+						backgroundColor: $magicLineTwo.data("origColor")
+					});    
+				});
+				
+				$("ul.dropdown-menu li").hover(function() {
+
+				$magicLineTwo.stop().animate();
+
+				$("#magic-line").css('visibility', 'hidden');
+
+
+
+				}, function() {
+
+				$("#magic-line-two").css('visibility', 'visible');
+
+				leftPos = $el.position().left;
+
+				newWidth = $el.parent().width();
+				});
+		
+			});
+		</script>
+	</head>
+	<body>
+	
+	 <div class="container">
+		<header>
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="logoholder">
+						<a href="http://tutorsonwheels.com"><img src="images/logo.jpg"></a>
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<div class="nav-top-search">
+						<div class="moduletable1">
+							<form action="index.php" method="post">
+								<div class="search">
+									<input name="searchword" id="mod_search_searchword" maxlength="30" alt="Search" class="inputbox" type="text" size="30" value="Search..." onblur="if(this.value=='') this.value='Search...';" onfocus="if(this.value=='Search...') this.value='';">	
+									<a href="#"><img height="25" src="images/searchButton.gif" class="search-border"></a>
+								</div>
+							</form>		
+						</div>
+						<div class="moduletable">
+							<ul class="menu-nav">
+								<li class="item28">
+									<a href="contact-us.html"><span>Contact Us</span></a>
+								</li>
+								<li class="item53">
+									<a href="faq.html"><span>FAQs</span></a>
+								</li>
+								<li class="item54">
+									<a href="http://blog.tutorsonwheels.com" target="_blank"><span>Blogs</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="social">
+							<ul class="social-ul">
+								<li class="social-li1"><a href="http://blog.tutorsonwheels.com"><img src="images/blog.png"></a></li>
+								<li class="social-li2" style="padding-top:10px;"><a href="https://www.facebook.com/tutors.wheels?fref=ts" target="_blank"><img src="images/fb.png"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="moduletable2">
+						<div class="tolfree-div">
+							<img src="images/phone.png" height="22" alt="phone"><span class="tolfree">TOLL FREE</span><br>
+						</div>
+						<div class="phone-no">
+							<span class="phone-text">1-877-TUTOR NY / (718) 268-0092</span>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</header>
+		
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+				<li class="dropdown1"><a href="http://tutorsonwheels.com">HOME</a></li>
+				<li class="dropdown1"><a href="about-us.html">ABOUT US</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">SERVICES <span class="caret"></span></a>
+				</li>
+              
+				<li class="dropdown1"><a href="our-mission-and-goals.html">OUR MISSION AND GOALS</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">GRADE LEVELS<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+					  <li><a href="elementary.html">Elementary</a></li>
+					  <li><a href="middle-school.html">Middle School</a></li>
+					  <li><a href="high-school.html">High School</a></li>
+					  <li><a href="college.html">College</a></li>
+					  <li><a href="adult-tutoring.html">Adult Tutoring</a></li>
+					  
+					</ul>
+				</li>
+				<li class="dropdown1"><a href="subjects.html">SUBJECTS</a></li>
+				<li class="dropdown1"><a href="test-prep.html">TEST PREP</a></li>
+				<li class="dropdown1"><a href="our-approach.html">OUR APPROACH</a></li>
+				<li class="active dropdown1"><a href="our-method.html">OUR METHOD</a></li>
+				<li class="dropdown1"><a href="our-tutors.html">OUR TUTORS</a></li>
+				<li class="dropdown1"><a href="tutor-jobs.html">TUTOR JOBS</a></li>
+            </ul>
+           
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </div>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="contentwrapper"> 
+					<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+					<script type="text/javascript" src="js/jquery-ui-1.8.11.custom.js"></script>
+					<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+					<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+					<link rel="stylesheet" href="css/jquery-ui-1.8.11.custom.css" type="text/css">
+					<div class="" style="width:auto; height:auto;">
+						<script type="text/javascript">
+						
+						$(function() {
+							$( "#accordion" ).accordion();
+						  });
+						</script>
+						<div id="accordion" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+							<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1">
+								<span class="ui-icon ui-icon-triangle-1-s"></span>
+								<a href="#">TOW Online Tutoring</a>
+							</h3>
+							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none; overflow: auto; padding-top: 14.399999618530273px; padding-bottom: 14.399999618530273px;">
+								<div class="article">	
+									<p><img style="display: block; margin-left: auto; width:100%;margin-right: auto;" alt="online-tutoring-page-banner lg" src="images/online-tutoring-page-banner_lg.jpg" height="334"></p>
+									<p>Our system is built around a four-step process; <strong>assessment</strong> against state and other standards, <strong>prescription</strong> of lessons to address skills identified in the assessment, <strong>instruction</strong> using lessons and other materials, and, throughout the process, in-depth <strong>reporting</strong>.</p>
+									<p>All<em></em><em></em> lessons share a standardized approach to online learning. This standardized approach minimizes student requirements to learn site navigation techniques and maximizes student learning time. Our approach consists of:</p>
+									<ul>
+										<li><em><strong>Study</strong></em> - all study activities have limited text per page and are generally restricted to presenting single concepts. These concepts are supported by age-appropriate graphics, interactive activities and third-party resources, aligned to lesson material, links such as Encyclopedia Britannica<span class="style1"><sup>®</sup></span> to expand the learning experience.</li>
+										<li>Take a <em><strong>practice</strong></em> test - practice tests provide an opportunity to review material learned and/or to return to the study guide to reengage lesson materials. Practice test scores are not used to determine lesson mastery.</li>
+										<li>Take a <em><strong>mastery</strong></em> test - mastery tests don't allow reengagement with lesson materials and are used to determine mastery of the lesson, at mastery levels determined by administrators and teachers.</li>
+										<li>Respond to an <em><strong>essay</strong></em> assignment - essays in most lessons provide an additional opportunity for the student to demonstrate, and for the teacher to evaluate, subject area mastery and are saved into the student’s personal portfolio for teacher review and grading.</li>
+									</ul>
+									<p>Using this approach we are able to provide greater learnign capability for your child while&nbsp;maximizing the time it takes to learn materials.</p>
+									<p><a href="http://www.amered.com/demo_8th_science_assessment.htm" class="jcepopup" target="_blank"><span class="jcemediabox-zoom-span" style="margin: 0px; padding: 0px; border: 0px none rgb(0, 0, 238); float: none; width: 178px;"><img alt="view demo" src="images/view_demo.jpg" height="61" width="178" style="margin: 0px; padding: 0px; float: none; border: none;"><span class="jcemediabox-zoom-image"></span></span></a></p>
+									<p><strong>Contact us today for more information.</strong></p>
+									<p><strong>TOLL FREE: 1-877-TUTOR NY / (718) 268-0092</strong></p>
+									<hr>
+									<p>&nbsp;</p>		
+								</div> 
+								<p></p>
+							</div>
+							<h3 class="ui-accordion-header ui-helper-reset ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0">
+								<span class="ui-icon ui-icon-triangle-1-e"></span><a href="#">About Us</a>
+							</h3>
+							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: block; padding-top: 14.399999618530273px; padding-bottom: 14.399999618530273px;">
+								<div class="article">
+									<p>Greetings! Welcome to Tutors on Wheels online tutoring program! This exciting new method of instruction is a development of our parent company, Tutors on Wheels. Tutors on Wheels, founded in 2004, has had remarkable results in just ﬁve years. We have attained our goal of providing excellent educational support for all kinds of students, from those with special needs and learning disabilities to those who just want to gain an extra measure of conﬁdence.</p>
+									<p>With our personal interest in the students we serve, we have enjoyed true success and are proud of our track record. We have seen students get better grades on standardized tests, return to school to get a GED and go on to college, or overcome stumbling blocks in their studies.</p>
+									<p>We are now expanding our services with Tutors on Wheels' online tutoring. This method will give students more ﬂexibility in their schedules while maintaining the same personal connection Tutors on Wheels is known for. We are certain that with Tutors on Wheels online tutoring program, we can all expect great results.</p>		
+								</div> 
+							</div>
+							<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1">
+								<span class="ui-icon ui-icon-triangle-1-e"></span><a href="#">Our Promise</a>
+							</h3>
+							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="overflow: auto; display: none; padding-top: 14.399999618530273px; padding-bottom: 14.399999618530273px;">
+								<div class="article">
+									<p>We are here to assist students of all ages in achieving success with schoolwork, homework, and any other learning challenges. Tutors on Wheels' online tutoring is dedicated to bringing you the same quality and consistency of instruction we have always offered but with the addition of modern technology. We can now reach out to you wherever you are with a committed staff of educators who work within a wide spectrum of study areas to help you acquire the highest possible level of skills.</p>
+									<p>We are pleased to be in the vanguard of modern education by offering this ﬂexible, state of the art instructional method for students who need an extra boost with schoolwork or exams.</p>		
+								</div> 
+							</div>
+							<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1">	
+								<span class="ui-icon ui-icon-triangle-1-e"></span><a href="#">What is online tutoring and how does it work?</a>
+							</h3>
+							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="overflow: auto; display: none; padding-top: 14.399999618530273px; padding-bottom: 14.399999618530273px;">
+								<div class="article">
+									<p>With online tutoring, you can utilize today’s technology to bolster your progress or troubleshoot speciﬁc subject areas and problems. Anyone who has Internet access can use this convenient, up-to-the minute method to enhance and enrich their studies. Online tutoring makes use of whiteboard technology, a method with which you can have an online dialog with a tutor by simply typing your problem or question. You may also use VOIP (voice over Internet protocol) to literally speak with the tutor via the computer.</p>
+									<p>A pool of qualified tutors is available 24/7; tutors are equipped to help with homework, clear up trouble spots as you prepare for an exam, or assist you in brushing up in a particular subject area.</p>		
+								</div> 
+							</div>
+							<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1">
+								<span class="ui-icon ui-icon-triangle-1-e"></span><a href="#">Why is online tutoring beneﬁcial?</a>
+							</h3>
+							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="overflow: auto; display: none; padding-top: 14.399999618530273px; padding-bottom: 14.399999618530273px;">
+								<div class="article">
+									<p>Like one-on-one tutoring, the online method allows the student to move at his/her own pace. The tutor can target the problem and address it in a coherent, understandable way but, online tutoring has some added beneﬁts. It is not as costly as in-person instruction; there is no travel time involved, and no “open” and “closed” hours because there is always a tutor available. Students can get instructional support, sharpen their skills, or do research at any time and from any location. Students will keep current with the latest technology while they receive the undivided attention of a tutor on a schedule that is convenient for them.</p>		
+								</div> 
+							</div>
+							<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1">
+								<span class="ui-icon ui-icon-triangle-1-e"></span><a href="#">Tutors on Wheels online tutoring serves everyone.</a>
+							</h3>
+							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="overflow: auto; display: none; padding-top: 14.399999618530273px; padding-bottom: 14.399999618530273px;">
+								<div class="article">
+									<p>No matter who you are, you can beneﬁt from Tutors on Wheels. General Ed students, home Schooled students, special Ed students, graduate students, people with learning disabilities (such as ADD, Dyslexia, etc.), and students who are committed to getting a GED can all move forward with their education as a result of online tutoring. Tutors on Wheels online tutoring reaches studentsin underserved areas and meets all local, regional and state requirements and standards.</p>		
+								</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</div> <!-- /container -->
+	<footer class="container">
+			<div class="col-sm-8 footer-left">
+			<ul class="footer-nav">
+				<li class="active"><a href="faq.html">FAQ's</a></li>
+				<li><a href="affiliations.html">Affiliations</a></li>
+				<li><a href="press-releases.html">Press Releases</a></li>
+				<li><a href="education-news.html">Education News</a></li>
+				 <li><a href="online-resources.html">Resources</a>
+				 <li><a href="privacy-policy.html">Privacy Policy</a></li>
+				<li><a href="tutoring-costs.html">Tutoring Costs</a></li></ul>
+			</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul class="footer-nav1">
+					<li><a href="#">Copyright &copy; 2014&nbsp;&nbsp;Tutors On Wheels. All rights reserved</a></li>
+					
+				</ul>
+			</div>
+		</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    
+	 </div>
+	</body>
+</html>
+
+
+

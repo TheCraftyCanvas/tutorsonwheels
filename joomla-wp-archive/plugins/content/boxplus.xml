@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+	<name>Content - Multimedia display - boxplus</name>
+	<author>Levente Hunyadi</author>
+	<creationDate>May 24, 2011</creationDate>
+	<copyright>© 2011 Levente Hunyadi. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>hunyadi@gmail.com</authorEmail>
+	<authorUrl>http://hunyadi.info.hu/projects/boxplus</authorUrl>
+	<version>0.9.2.4</version>
+	<downloadUrl>http://joomlacode.org/gf/project/boxplus/frs/</downloadUrl>
+	<description>BOXPLUS_DESCRIPTION</description>
+	<files>
+		<filename plugin="boxplus">boxplus.php</filename>
+		<folder>boxplus</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_content_boxplus.ini</language>
+	</languages>
+	<params>
+		<param name="theme" type="list" default="lightsquare" label="BOXPLUS_THEME" description="BOXPLUS_THEME_DESCRIPTION">
+			<option value="lightsquare">BOXPLUS_THEME_LIGHTSQUARE</option>
+			<option value="darksquare">BOXPLUS_THEME_DARKSQUARE</option>
+			<option value="lightrounded">BOXPLUS_THEME_LIGHTROUNDED</option>
+			<option value="darkrounded">BOXPLUS_THEME_DARKROUNDED</option>
+			<option value="prettyphoto">BOXPLUS_THEME_PRETTYPHOTO</option>
+			<option value="shadow">BOXPLUS_THEME_SHADOW</option>
+		</param>
+		<param name="autocenter" type="radio" default="1" label="BOXPLUS_AUTOCENTER" description="BOXPLUS_AUTOCENTER_DESCRIPTION">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="autofit" type="radio" default="1" label="BOXPLUS_AUTOFIT" description="BOXPLUS_AUTOFIT_DESCRIPTION">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="slideshow" type="text" default="0" label="BOXPLUS_SLIDESHOW" description="BOXPLUS_SLIDESHOW_DESCRIPTION" />
+		<param name="loop" type="radio" default="0" label="BOXPLUS_LOOP" description="BOXPLUS_LOOP_DESCRIPTION">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="captions" type="list" default="bottom" label="BOXPLUS_CAPTIONS" description="BOXPLUS_CAPTIONS_DESCRIPTION">
+			<option value="bottom">BOXPLUS_CAPTIONS_BOTTOM</option>
+			<option value="sideways">BOXPLUS_CAPTIONS_SIDEWAYS</option>
+			<option value="none">HIDE</option>
+		</param>
+		<param name="thumbs" type="list" default="inside" label="BOXPLUS_THUMBS" description="BOXPLUS_THUMBS_DESCRIPTION">
+			<option value="inside">BOXPLUS_THUMBS_INSIDE</option>
+			<option value="outside">BOXPLUS_THUMBS_OUTSIDE</option>
+			<option value="none">HIDE</option>
+		</param>
+		<param name="width" type="text" default="800" label="BOXPLUS_WIDTH" description="BOXPLUS_WIDTH_DESCRIPTION" />
+		<param name="height" type="text" default="600" label="BOXPLUS_HEIGHT" description="BOXPLUS_HEIGHT_DESCRIPTION" />
+		<!--
+		<param name="title" type="textarea" cols="40" label="BOXPLUS_TITLE" description="BOXPLUS_TITLE_DESCRIPTION" />
+		<param name="description" type="textarea" cols="40" label="BOXPLUS_TEXT" description="BOXPLUS_TEXT_DESCRIPTION" />
+		<param name="download" type="radio" default="1" label="BOXPLUS_DOWNLOAD" description="BOXPLUS_DOWNLOAD_DESCRIPTION">
+			<option value="1">SHOW</option>
+			<option value="0">HIDE</option>
+		</param>
+		<param name="metadata" type="radio" default="1" label="BOXPLUS_METADATA" description="BOXPLUS_METADATA_DESCRIPTION">
+			<option value="1">SHOW</option>
+			<option value="0">HIDE</option>
+		</param>
+		-->
+		<param name="duration" type="text" default="250" label="BOXPLUS_DURATION" description="BOXPLUS_DURATION_DESCRIPTION" />
+		<param name="transition" type="list" default="linear" label="BOXPLUS_TRANSITION" description="BOXPLUS_TRANSITION_DESCRIPTION">
+			<option value="linear">BOXPLUS_TRANSITION_LINEAR</option>
+			<option value="quad">BOXPLUS_TRANSITION_QUAD</option>
+			<option value="cubic">BOXPLUS_TRANSITION_CUBIC</option>
+			<option value="quart">BOXPLUS_TRANSITION_QUART</option>
+			<option value="quint">BOXPLUS_TRANSITION_QUINT</option>
+			<option value="expo">BOXPLUS_TRANSITION_EXPO</option>
+			<option value="circ">BOXPLUS_TRANSITION_CIRC</option>
+			<option value="sine">BOXPLUS_TRANSITION_SINE</option>
+			<option value="back">BOXPLUS_TRANSITION_BACK</option>
+			<option value="bounce">BOXPLUS_TRANSITION_BOUNCE</option>
+			<option value="elastic">BOXPLUS_TRANSITION_ELASTIC</option>
+		</param>
+		<param name="contextmenu" type="radio" default="1" label="BOXPLUS_CONTEXTMENU" description="BOXPLUS_CONTEXTMENU_DESCRIPTION">
+			<option value="1">SHOW</option>
+			<option value="0">HIDE</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="strict" type="radio" default="0" label="BOXPLUS_STRICT" description="BOXPLUS_STRICT_DESCRIPTION">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="activationtag" type="text" default="boxplus" label="BOXPLUS_ACTIVATIONTAG" description="BOXPLUS_ACTIVATIONTAG_DESCRIPTION" />
+		<param name="debug" type="radio" default="0" label="BOXPLUS_DEBUG" description="BOXPLUS_DEBUG_DESCRIPTION">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+	</params>
+</install>

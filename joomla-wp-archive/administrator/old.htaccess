@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/administrator
+RewriteCond %{HTTP_COOKIE} !JoomlaAdminSession=8050081080
+RewriteRule .* - [L,F]

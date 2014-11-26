@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+#ampContact {
+
+}
+#ampContact p{
+	margin: 0;
+	padding: 0;
+}
+#ampContact .ampContactText {
+	border: 1px solid #CCCCCC;
+	width: 150px;
+	margin: 3px 0;
+}
+#ampContact .ampContactTextarea {
+	border: 1px solid #CCCCCC;
+	width: 150px;
+	height: 30px;
+	margin: 3px 0;
+}
+#ampContact .ampContactButton {
+	border: 1px solid #CCCCCC;
+	margin: 3px 0;
+}
+#ampContact .invalid {
+	border: 1px solid #FF0000;
+}
+#ampcredit {
+	font-size: 70%;
+}
+#ampcredit0 {
+	display:none;	
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Vertical scroll recent article</name>
+	<author>Gopi.R</author>
+	<creationDate>October 2010</creationDate>
+	<copyright>Copyright (C) 2010 - 2010 www.gopiplus.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>gopiplus@yahoo.co.in</authorEmail>
+	<authorUrl>http://www.gopiplus.com/extensions/2011/06/vertical-scroll-recent-article-joomla-module/</authorUrl>
+	<version>2.0</version>
+	<description>This will vertically scroll the recent article title in site side bar.</description>
+	<files>
+		<filename module="mod_vertical_scroll_recent_article">mod_vertical_scroll_recent_article.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+    	<filename>tmpl/index.html</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	<params>
+		<param name="vsra_title" type="text" size="50" default="Scroll article" label="Title" description="Title" />
+		<param name="vsra_height" type="text" default="40" label="Each scroller height in scroll" description="Each scroller height in scroll" />
+		<param name="vsra_count" type="text" default="5" label="Display number of record at the same time in scroll" description="Display number of record at the same time in scroll" />
+		<param name="vsra_width" type="text" default="200" label="Enter max character for each article" description="Enter max character for each article" />
+		<param name="vsra_categories" type="text" default="" label="Category ID" description="Select article from a specific category" />
+		<param name="vsra_order" type="text" default="" label="Order" description="Ordering option, Enter any one(created/modified/ordering)" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Ecommerce">
+		<meta name="author" content="Ecommerce">
+		<title>Tutorsonwheels</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/bootstrap-override.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- jQuery library (served from Google) -->
+		<script type="text/javascript" src="slider/jquery.min.js"></script>
+		<script type="text/javascript" src="js/carousels.js"></script>
+		<!-- bxSlider Javascript file -->
+		<script type="text/javascript" src="slider/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="slider/jquery.bxslider.js"></script>
+		<!-- bxSlider CSS file -->
+		<link href="slider/jquery.bxslider.css" rel="stylesheet" />
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  $('.bxslider').bxSlider();
+			});
+			
+			$(function() {
+
+				var $el, leftPos, newWidth,
+				
+				$mainNav2 = $(".navbar-nav");
+				$mainNav2.append("<li id='magic-line-two'></li>");
+    
+				var $magicLineTwo = $("#magic-line-two");
+    
+				$magicLineTwo
+					.width($(".active").width())
+					.height($mainNav2.height())
+					.css("left", $(".active a").position().left)
+					.css("top", $(".active a").position().top)
+					.data("origLeft", $(".active a").position().left)
+					.data("origTop", $(".active a").position().top)
+					.data("origWidth", $magicLineTwo.width())
+					.data("origColor", $(".active a").attr("rel"));
+							
+				$(".navbar-nav a").hover(function() {
+					$el = $(this);
+					leftPos = $el.position().left;
+					topPos= $el.position().top;
+					newWidth = $el.parent().width();
+					$magicLineTwo.stop().animate({
+						left: leftPos,
+						top: topPos,
+						width: newWidth,
+						backgroundColor: $el.attr("rel")
+					})
+				}, function() {
+					$magicLineTwo.stop().animate({
+						left: $magicLineTwo.data("origLeft"),
+						width: $magicLineTwo.data("origWidth"),
+						backgroundColor: $magicLineTwo.data("origColor")
+					});    
+				});
+				
+				$("ul.dropdown-menu li").hover(function() {
+
+				$magicLineTwo.stop().animate();
+
+				$("#magic-line").css('visibility', 'hidden');
+
+
+
+				}, function() {
+
+				$("#magic-line-two").css('visibility', 'visible');
+
+				leftPos = $el.position().left;
+
+				newWidth = $el.parent().width();
+				});
+		
+			});
+		</script>
+	</head>
+	<body>
+	
+	 <div class="container">
+		<header>
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="logoholder">
+						<a href="http://tutorsonwheels.com"><img src="images/logo.jpg"></a>
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<div class="nav-top-search">
+						<div class="moduletable1">
+							<form action="index.php" method="post">
+								<div class="search">
+									<input name="searchword" id="mod_search_searchword" maxlength="30" alt="Search" class="inputbox" type="text" size="30" value="Search..." onblur="if(this.value=='') this.value='Search...';" onfocus="if(this.value=='Search...') this.value='';">	
+									<a href="#"><img height="25" src="images/searchButton.gif" class="search-border"></a>
+								</div>
+							</form>		
+						</div>
+						<div class="moduletable">
+							<ul class="menu-nav">
+								<li class="item28">
+									<a href="contact-us.html"><span>Contact Us</span></a>
+								</li>
+								<li class="item53">
+									<a href="faq.html"><span>FAQs</span></a>
+								</li>
+								<li class="item54">
+									<a href="http://blog.tutorsonwheels.com" target="_blank"><span>Blogs</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="social">
+							<ul class="social-ul">
+								<li class="social-li1"><a href="http://blog.tutorsonwheels.com"><img src="images/blog.png"></a></li>
+								<li class="social-li2" style="padding-top:10px;"><a href="https://www.facebook.com/tutors.wheels?fref=ts" target="_blank"><img src="images/fb.png"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="moduletable2">
+						<div class="tolfree-div">
+							<img src="images/phone.png" height="22" alt="phone"><span class="tolfree">TOLL FREE</span><br>
+						</div>
+						<div class="phone-no">
+							<span class="phone-text">1-877-TUTOR NY / (718) 268-0092</span>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</header>
+		
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+				<li class="dropdown1"><a href="http://tutorsonwheels.com">HOME</a></li>
+				<li class="dropdown1"><a href="about-us.html">ABOUT US</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">SERVICES <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+					  <li><a href="school-educators.html">School / Educators</a></li>
+					  <li><a href="government-agencies.html">Government Agencies</a></li>
+					  <li><a href="libraries.html">Libraries</a></li>
+					  <li><a href="military-students.html">Military Students</a></li>
+					  <li><a href="non-profit-organizations.html">Non Profit Organizations</a></li>
+					</ul>
+				</li>
+				<li class="dropdown1"><a href="our-mission-and-goals.html">OUR MISSION AND GOALS</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">GRADE LEVELS<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+					  <li><a href="elementary.html">Elementary</a></li>
+					  <li><a href="middle-school.html">Middle School</a></li>
+					  <li><a href="high-school.html">High School</a></li>
+					  <li><a href="college.html">College</a></li>
+					  <li><a href="adult-tutoring.html">Adult Tutoring</a></li>
+					  
+					</ul>
+				</li>
+				<li class="dropdown1"><a href="subjects.html">SUBJECTS</a></li>
+				<li class="dropdown1"><a href="test-prep.html">TEST PREP</a></li>
+				<li class="active dropdown1"><a href="our-approach.html">OUR APPROACH</a></li>
+				<li class="dropdown1"><a href="our-method.html">OUR METHOD</a></li>
+				<li class="dropdown1"><a href="our-tutors.html">OUR TUTORS</a></li>
+				<li class="dropdown1"><a href="tutor-jobs.html">TUTOR JOBS</a></li>
+            </ul>
+           
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </div>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<p><strong>&nbsp;</strong></p>
+				<strong>Our approach to instruction:</strong>
+				<p>Rather than using an institutional approach to supplemental instruction, Tutors on Wheels employs a diagnostic/prescriptive method. The process begins with an administered assessment to pinpoint a child’s academic strengths and deficits. Based on the assessment results, a customized learning program is formulated to address the student’s needs. All student assessment results, learning program designs, and tutoring session schedules are discussed in a formal parent conference prior to the student’s first tutoring session. Our tutors also maintain a close relationship with their students’ classroom teachers through personal visits, IEP conferences, and online communication. The assessment-based customized learning programs enable our tutors to create personalized instructional approaches designed to enhance each student’s strengths and to remediate each learning deficit.</p>
+				<strong>Our components of differentiated instruction:</strong>
+				<p>The Tutors on Wheels’ instructional method utilizes a blended approach to differentiated instruction that can incorporate both technology and direct instruction. All technology components are research based and are aligned to New York State Standards and to the Common Core Standards. Through direct instruction, our tutoring provides the students with homework help that utilizes the students’ existing assignments and curriculum. Every instructional component will be leveled to each student’s current academic status as revealed by the initial assessment. At the end of each tutoring session, our tutors provide the student’s parents with a session review. Tutors on Wheels also provides periodic student evaluations and progress reports to keep instruction current and to ensure that parents are kept informed as to their child’s progress. In the future, Tutors on Wheels will be instituting a new online program that will help parents to develop their own tutoring skills.</p>
+				<strong>Meeting our students’ needs:</strong>
+				<p>Tutors on Wheels always works hard to match our tutors to meet the client’s needs. We take into consideration the student’s academic requirements and goals, learning styles and preferences, geographic location, and schedule. We offer one-on-one tailored instruction and test preparation. This year, Tutors on Wheels is also providing online tutoring that will allow students to reach out to a tutor from any computer at any location. The online tutoring portal will ensure that our students receive the academic help that they need at their own convenience.</p>
+				<p>The Tutors on Wheels instructional method components – blended instruction, homework support, and online tutoring – all combine to ensure that our students and their families receive the best and most affordable tutoring services in the New York City area.</p>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-4">
+				<a href="hire-a-tutor.html" style="float:left;"><img style="width:180px;height:56px;" src="images/hire.png"></a>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="float:left;">
+						<input name="cmd" value="_s-xclick" type="hidden">
+						<input name="hosted_button_id" value="LR4YSL8RPLWDN" type="hidden">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						<input src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" border="0" type="image">
+						<img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" style="display: block; margin-left: 10px; margin-right: auto;" border="0" height="1" width="1"><br>
+				</form><br><br><br>
+				<p><strong>&nbsp;</strong></p><p><strong>&nbsp;</strong></p>
+			</div>
+		</div>
+		
+		
+		
+    </div> <!-- /container -->
+	<footer class="container">
+			<div class="col-sm-8 footer-left">
+			<ul class="footer-nav">
+				<li class="active"><a href="faq.html">FAQ's</a></li>
+				<li><a href="affiliations.html">Affiliations</a></li>
+				<li><a href="press-releases.html">Press Releases</a></li>
+				<li><a href="education-news.html">Education News</a></li>
+				 <li><a href="online-resources.html">Resources</a>
+				 <li><a href="privacy-policy.html">Privacy Policy</a></li>
+				<li><a href="tutoring-costs.html">Tutoring Costs</a></li></ul>
+			</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul class="footer-nav1">
+					<li><a href="#">Copyright &copy; 2014&nbsp;&nbsp;Tutors On Wheels. All rights reserved</a></li>
+					
+				</ul>
+			</div>
+		</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="js/bootstrap.min.js"></script>
+	 </div>
+	</body>
+</html>
+
+
+

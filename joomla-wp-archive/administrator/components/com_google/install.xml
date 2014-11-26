@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>Google</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>2011-05-11</creationDate>
+	<author>inetlanka web team [inetlankapvt@gmail.com / wapnishantha@gmail.com]</author>
+	<authorEmail>wapnishantha@gmail.com</authorEmail>
+	<authorUrl>http://inetlanka.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.5.1</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>This is done accoding to the MVC - Security Release </description>
+
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>google.php</filename>		
+		<filename>models/google.php</filename>
+		<filename>asset/captcha/ARIALNI.TTF</filename>
+		<filename>asset/captcha/captcha.php</filename>
+		<filename>asset/img/mappin.png</filename>		
+		<filename>views/google/view.html.php</filename>		
+		<filename>views/google/tmpl/default.php</filename>
+		<filename>views/google/tmpl/default.xml</filename>
+		<filename>index.html</filename>
+		<filename>views/index.html</filename>
+		<filename>views/google/tmpl/index.html</filename>
+		
+	</files>
+	
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.com_google.ini</language>
+	</languages>
+	
+	
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>Google Map!</menu>
+		
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Site Main File Copy Section -->
+			<filename>google.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>			
+			<filename>controller.php</filename>
+			<filename>asset/img/mappin.png</filename>
+			<filename>controllers/google.php</filename>			
+			<filename>models/googles.php</filename>
+			<filename>models/google.php</filename>			
+			<filename>tables/google.php</filename>			
+			<filename>views/google/view.html.php</filename>
+			<filename>views/google/tmpl/form.php</filename>			
+			<filename>views/googles/view.html.php</filename>			
+			<filename>views/googles/tmpl/default.php</filename>
+			<filename>elements/google.php</filename>
+			<filename>index.html</filename>
+			<filename>controllers/index.html</filename>
+			<filename>models/index.html</filename>
+			<filename>tables/index.html</filename>
+			<filename>views/google/index.html</filename>
+			<filename>views/google/tmpl/index.html</filename>
+			<filename>views/googles/index.html</filename>
+			<filename>views/googles/tmpl/index.html</filename>
+			
+			
+		</files>
+		
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.com_google.ini</language>
+		</languages>		
+	</administration>
+</install>

@@ -1,0 +1,2 @@
+[07-Apr-2014 14:02:18 America/Denver] PHP Fatal error:  Call to undefined function plugin_dir_url() in /home5/tutorson/public_html/blogtow/wp-content/plugins/akismet/akismet.php on line 32
+[12-Jul-2014 09:30:24 America/Denver] PHP Fatal error:  Call to undefined function plugin_dir_url() in /home5/tutorson/public_html/blogtow/wp-content/plugins/akismet/akismet.php on line 32

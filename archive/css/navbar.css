@@ -1,0 +1,87 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+div.navbar-default
+{
+	background-image:url(../../../../Ashish/html/xyz.png);
+	max-width: 100%;
+}
+div.jumbotron
+{
+
+	background-image:url(../../../../Ashish/html/banner.png);
+	max-width: 100%;
+	width:1140px;
+	height:465px;
+}
+div.x
+{
+
+	background-image:url(../../../../Ashish/html/middle.png);
+	max-width:100%;
+	
+}
+div.col-md-4
+{
+	
+	
+}
+div.m  h1
+{ 	
+	
+		background-color:#0F0;
+	
+}
+div.m  
+{ 	
+	
+		background-image:url(../../../../Ashish/html/b1.png);
+		max-width: 100%;
+		z-index:1;
+	
+}
+div.banner  
+{ 	
+	
+		background-image:url(../../../../Ashish/html/banner.png);
+		max-width: 100%;
+		z-index:1;
+	
+}
+div.last 
+{ 	
+	
+		background-image:url(../../../../Ashish/html/last.png);
+		max-width: 100%;
+		
+	
+}
+div.f
+{ 	
+	
+		background-image:url(../../../../Ashish/html/f.png);
+		max-width: 120%;
+		padding-left:0px;
+		
+	
+}
+box1 h1
+{ 	
+		background-color:red;
+		background-image:url(../../../../Ashish/html/middle.png);
+		width: 150%;
+		
+	
+}
+#content
+{
+	    width: 400px;
+    margin: 0 auto;
+    background-color: #66ffff;	
+}

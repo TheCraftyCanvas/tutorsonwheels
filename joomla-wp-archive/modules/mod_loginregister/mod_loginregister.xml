@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Login Register</name>
+	<author>JM-Experts!</author>
+	<creationDate>July 2011</creationDate>
+	<copyright>Copyright (C) 2006 - 2011 JM-Experts!. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@jm-experts.com</authorEmail>
+	<authorUrl>www.jm-experts.com</authorUrl>
+	<version>1.5.7</version>
+	<description>THANKYOU_FOR_INSTALLING_LOGIN_REGISTER_MODULE</description>
+	<files>
+		<filename module="mod_loginregister">mod_loginregister.php</filename>
+        <filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/jquery.min.js</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/loads.gif</filename>
+		<filename>tmpl/captchacheck.php</filename>
+		<filename>tmpl/recaptchalib.php</filename>
+		<filename>tmpl/loginregisterlogo.jpg</filename>
+
+
+	</files>
+
+		<languages>
+		<!-- English //-->
+		<language tag="en-GB">en-GB.mod_loginregister.ini</language>
+	</languages>
+	<params>
+		<param name="view" type="list" default="0" label="Default View" description="Select the default view you would like to have.">
+			<option value="0">Login</option>
+			<option value="1">Register</option>
+		</param>
+
+		<param name="disablelog" type="list" default="0" label="Disable Login" description="Select yes if you just want to have registration part of the module published.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="0">Never</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		
+		<param name="pretext" type="textarea" cols="30" rows="5" default="" label="Pre-text" description="This is the text or HTML that is displayed above the login form." />
+		
+		<param name="posttext" type="textarea" cols="30" rows="5" label="Post-text" description="This is the text or HTML that is displayed below the login form." />
+		
+		<param name="login" type="menuitem" default="" disable="separator" label="Login Redirection URL" description="Select the page the user will be redirected to after a successful login. Select from all the pages listed in the dropdown menu. If no selection is made, the Front Page will be loaded by default." state="1" />
+		
+		<param name="logout" type="menuitem" default="" disable="separator" label="Logout Redirection URL" description="Select the page the user will be redirected to after successfully ending their current session by logging out. Select from all the pages listed in the dropdown menu. If no selection is made, the Front Page will be loaded by default." state="1" />
+		
+		<param name="greeting" type="radio" default="1" label="Greeting" description="Show/Hide the simple greeting text">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="name" type="list" default="0" label="Name/Username">
+			<option value="0">Username</option>
+			<option value="1">Name</option>
+		</param>
+		
+		<param name="usesecure" type="radio" default="0" label="Encrypt Login Form" description="Submit encrypted login data ,requires SSL">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer1" type="spacer" default="ReCaptcha Credentials"/>
+		
+		<param name="enablecap" type="radio" default="0" label="Enable ReCaptcha" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param type="text" name="public" default='' label="Public Key"  description="ReCaptcha Public Key. Visit www.google.com/recaptcha" />
+		<param type="text" name="private" default='' label="Private Key" description="ReCaptcha Private Key Visit www.google.com/recaptcha" />
+		
+		<param name="@spacer2" type="spacer" default="ReCaptcha Customisation"/>
+		
+		<param type="list" name="jmtheme" default="0" label="ReCaptcha Template" description="Select ReCaptcha template color">
+			<option value="0">Red</option>
+			<option value="1">White</option>
+			<option value="2">Blackglass</option>
+			<option value="3">Clean</option>
+		</param>
+	</params>
+	<params group="other">
+	
+		<param type="radio" name="checkbox1" default="0" label="Radio buttons position" Description="Select where to display the Radio buttons to switch between Login and Registration.">
+			<option value="1">Top</option>
+			<option value="0">Bottom</option>
+		</param>
+		<param name="jqueryload" type="list" default="local" label="jQuery Source" description="Loading jQuery form Google CDN is Recommended when you are running this module on live site. You can load from Module Core when you don't have any internet connection or for testing purpose.">		
+			<option value="local">From Module Core</option>
+			<option value="online">From Google CDN</option>
+		</param>
+		
+		<param type="radio" name="tou" default="0" label="Term of Use" Description="Select if you want to enable the Terms of Use Check Box to display before the register button.">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param type="radio" name="checkbox" default="checked" label="Check box" Description="Select wheatear you want the Terms of Use Check Box to be pre-checked or not.">
+			<option value="checked">Checked</option>
+			<option value="notchecked">Not Checked</option>
+		</param>
+		<param type="text" name="articleid" default="1" label="Article ID" Description="Enter the Article ID of the article you want Terms of Use text to be linked
+		.">
+		</param>
+		<param type="text" name="title" default="I Agree to the Terms of Use" label="Display Text" size="50" Description="Enter the text to display.">
+		</param>
+		<param name="newwindow" type="list" default="_self" label="Link">
+			<option value="_self">Open in the same window</option>
+			<option value="_blank">Open in the new window</option>
+		</param>
+	
+		</params>
+
+</install>

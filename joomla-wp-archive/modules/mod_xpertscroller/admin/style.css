@@ -1,0 +1,66 @@
+/**
+ * @package XpertScroller
+ * @version 1.3
+ * @author ThemeXpert http://www.themexpert.com
+ * @copyright Copyright (C) 2009 - 2011 ThemeXpert
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ *
+ */
+
+input[type=text],select{padding: 5px 8px; border: 1px solid #ccc; font-size: 12px; -moz-border-radius: 3px;-webkit-border-radius: 3px; border-radius:3px}
+input[type=text]{-moz-box-shadow: 0 3px 3px #eee inset;-webkit-box-shadow: 0 3px 3px #eee inset;box-shadow: 0 3px 3px #eee inset;}
+
+#combobox-position-select{min-width: 150px;height: 32px;}
+#position{padding:2px 0 0;border-color : #CCCCCC -moz-use-text-color #CCCCCC #CCCCCC;border-style: solid none solid solid;border-width: 1px medium 1px 1px; -moz-border-radius:0;-moz-box-shadow:none; width: 120px !important;}
+.paramlist_value label, .paramlist_value input[type=radio]{visibility: hidden;}
+.paramlist_value label.tx-enable, .paramlist_value label.tx-disable{cursor: pointer; visibility: visible;}
+.jpane-slider{height: auto !important;}
+.jpane-slider > table{display: none;height: 0px;}
+table.admintable td.key, table.admintable td.paramlist_key{background: #eef8fe;}
+
+/* Used for the Switch effect: */
+.tx-enable, .tx-disable, .tx-enable span, .tx-disable span { background: url(switch.gif) repeat-x; display: block; float: left; }
+.tx-enable span, .tx-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+.tx-enable span { background-position: left -90px; padding: 0 10px; }
+.tx-disable span { background-position: right -180px;padding: 0 10px; }
+.tx-disable.selected { background-position: 0 -30px; }
+.tx-disable.selected span { background-position: right -210px; color: #fff; }
+.tx-enable.selected { background-position: 0 -60px; }
+.tx-enable.selected span { background-position: left -150px; color: #fff; }
+
+.success, .warning{background: url(success-warning.png)repeat 0 0;margin: 0 0 5px 0; height: 40px; line-height: 38px; font-size:11px;text-shadow: 0 1px 1px #FFFFFF;}
+.success{color: #076a07;}
+.warning{background-position: 0px 40px; color: #f03636;}
+.success p, .warning p{background: url(msg-icon.png)no-repeat 10px 0; padding-left: 40px;}
+.warning p{background-position: 10px -40px;}
+.warning a{color: #b71212}
+
+
+/* root element for accordion. decorated with rounded borders and gradient background image */
+h2.acc_trigger {
+    padding: 6px 0; 
+    background: url(h2-bg.gif) 0 0;
+    margin: 0;
+    text-shadow: 1px 1px 1px #f8f8f8;
+}
+h2.acc_trigger a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 30px;
+    background: url(header-icon.png) no-repeat 6px 0px;
+    font-size: 14px;
+}
+h2.acc_trigger a:hover,h2.acc_trigger a:focus,h2.acc_trigger a:active {
+    outline: none;
+}
+h2.active {background: url(h2-active-bg.gif) 0 0;}
+h2.active a {background-position:6px -15px; }
+.acc_container {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 1.2em;
+    clear: both;
+    background: #fff;
+}

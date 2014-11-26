@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>SWFobject</name>
+    <author>waLplanet</author>
+    <authorEmail>superwal@gmail.com</authorEmail>
+    <authorURL>http://code.google.com/p/swfobject4joomla/</authorURL>
+    <version>1.1</version>
+    <creationDate>December 2009</creationDate>
+    <copyright>(C) 2011</copyright>
+    <description>SWFobject module</description>
+    <files>
+        <filename module="mod_swfobject">mod_swfobject.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>lib/swfobject.js</filename>
+        <filename>lib/test.swf</filename>
+        <filename>lib/index.html</filename>
+    </files>
+    <languages>
+		<language tag="en-GB">language/en-GB.mod_swfobject.ini</language>
+		<language tag="de-DE">language/de-DE.mod_swfobject.ini</language>
+		<language tag="fr-FR">language/fr-FR.mod_swfobject.ini</language>
+		<language tag="es-ES">language/es-ES.mod_swfobject.ini</language>
+		<language tag="it-IT">language/it-IT.mod_swfobject.ini</language>
+		<language tag="nl-NL">language/nl-NL.mod_swfobject.ini</language>
+		<language tag="pt-PT">language/pt-PT.mod_swfobject.ini</language>
+		<language tag="jp-JP">language/jp-JP.mod_swfobject.ini</language>
+	</languages>
+    <params>
+		<param name="name" type="text" size="32" default="flashcontent" />
+		<param name="id" type="text" size="32" default="flashid" label="id" description="specifies the id of the HTML element (containing your alternative content) you would like to have replaced by your Flash content"/>
+		<param name="file" type="text" default="modules/mod_swfobject/lib/test.swf" label="File Path" 
+      description="Path to the SWF file."/>
+		<param name="width" type="text" size="32" default="120" label="Width" 
+      description="specifies the width of your SWF"/>
+		<param name="height" type="text" size="32" default="240" label="Height" 
+      description="specifies the height of your SWF"/>
+		<param name="bgcolor" type="text" size="32" default="" label="Background color" 
+      description="Background color of SWF in hexadecimal: #ffffff"/>
+		<param name="version" type="text" size="32" default="9" label="Version" 
+      description="Minimum version for the SWF." />
+		<param name="alt_content" type="textarea" cols="35" rows="10" default="" label="Alternative content" description="HTML to display if flash player is not detected." />
+	</params>
+  	<params group="advanced">
+  		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+  		<param name="flash_link" type="radio" default="0" label="Flash player link" description="Enables the button to download the flash player if the swf is not loaded" >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+  		<param name="wmode" type="list" label="Window Mode"
+	  description="Sets the Window Mode property of the Flash movie for transparency, layering, and positioning in the browser.">
+		  <option value="window">Window</option>
+		  <option value="opaque">Opaque</option>
+		  <option value="transparent">Transparent</option>
+    	</param>
+		<param name="allowscriptaccess" type="list" label="AllowScriptAccess"
+	  description="The AllowScriptAccess parameter in the HTML code that loads a SWF file controls the ability to perform outbound URL access from within the SWF file. Set this parameter inside the PARAM or EMBED tag. If no value is set for AllowScriptAccess, the SWF file and the HTML page can communicate only if both are from the same domain.">
+		  <option value="always">always</option>
+		  <option value="sameDomain">sameDomain</option>
+		  <option value="never">never</option>
+    	</param>
+		<param name="param_n1" type="text" size="32" default="" label="parameter 1 name" description="the name of a flash param, for example 'wmode'"/>
+		<param name="param_v1" type="text" default="" label="parameter 1 value" description="the value for the parameter 1, for example 'transparent'"/>
+		<param name="param_n2" type="text" size="32" default="" label="parameter 2 name" description="the name of a flash param, for example 'wmode'"/>
+		<param name="param_v2" type="text" default="" label="parameter 2 value" description="the value for the parameter 2, for example 'transparent'"/>
+		<param name="param_n3" type="text" size="32" default="" label="parameter 3 name" description="the name of a flash param, for example 'wmode'"/>
+		<param name="param_v3" type="text" default="" label="parameter 3 value" description="the value for the parameter 3, for example 'transparent'"/>
+		<param name="param_n4" type="text" size="32" default="" label="parameter 4 name" description="the name of a flash param, for example 'wmode'"/>
+		<param name="param_v4" type="text" default="" label="parameter 4 value" description="the value for the parameter 4, for example 'transparent'"/>
+		<param name="var_n1" type="text" size="32" default="" label="variable 1 name" description="the name for a variable, if you want to send to your SWF a variable"/>
+		<param name="var_v1" type="text" default="" label="variable 1 value" description="the value for the variable 1"/>
+		<param name="var_n2" type="text" size="32" default="" label="variable 2 name" description="the name for a variable, if you want to send to your SWF a variable"/>
+		<param name="var_v2" type="text" default="" label="variable 2 value" description="the value for the variable 2"/>
+		<param name="var_n3" type="text" size="32" default="" label="variable 3 name" description="the name for a variable, if you want to send to your SWF a variable"/>
+		<param name="var_v3" type="text" default="" label="variable 3 value" description="the value for the variable 3"/>
+		<param name="var_n4" type="text" size="32" default="" label="variable 4 name" description="the name for a variable, if you want to send to your SWF a variable"/>
+		<param name="var_v4" type="text" default="" label="variable 4 value" description="the value for the variable 4"/>
+    </params>
+</install>

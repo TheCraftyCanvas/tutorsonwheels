@@ -1,0 +1,35 @@
+/**
+** Show sub menu if mootools is off - Horizontal style
+**/
+div.maximenuCKH ul.maximenuCK li:hover div.floatCK div.floatCK, div.maximenuCKH ul.maximenuCK li:hover div.floatCK:hover div.floatCK div.floatCK,
+div.maximenuCKH ul.maximenuCK li.sfhover div.floatCK div.floatCK, div.maximenuCKH ul.maximenuCK li.sfhover div.floatCK.sfhover div.floatCK div.floatCK {
+left: -999em;
+}
+
+div.maximenuCKH ul.maximenuCK li:hover div.floatCK, div.maximenuCKH ul.maximenuCK li:hover div.floatCK li:hover div.floatCK, div.maximenuCKH ul.maximenuCK li:hover div.floatCK li:hover div.floatCK li:hover div.floatCK,
+div.maximenuCKH ul.maximenuCK li.sfhover div.floatCK, div.maximenuCKH ul.maximenuCK li.sfhover div.floatCK li.sfhover div.floatCK, div.maximenuCKH ul.maximenuCK li.sfhover div.floatCK li.sfhover div.floatCK li.sfhover div.floatCK {
+left: auto;
+}
+
+div.maximenuCKH div.maximenuCK_mod ul {
+left : auto;
+}
+
+
+/**
+** Show sub menu if mootools is off - Vertical style
+**/
+div.maximenuCKV ul.maximenuCK li:hover div.floatCK div.floatCK, div.maximenuCKV ul.maximenuCK li:hover div.floatCK:hover div.floatCK div.floatCK,
+div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK div.floatCK, div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK.sfhover div.floatCK div.floatCK {
+left: -999em;
+}
+
+div.maximenuCKV ul.maximenuCK li:hover div.floatCK, div.maximenuCKV ul.maximenuCK li:hover div.floatCK li:hover div.floatCK, div.maximenuCKV ul.maximenuCK li:hover div.floatCK li:hover div.floatCK li:hover div.floatCK,
+div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK, div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK li.sfhover div.floatCK, div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK li.sfhover div.floatCK li.sfhover div.floatCK {
+left: auto;
+}
+
+div.maximenuCKV div.maximenuCK_mod ul {
+left : auto;
+}
+

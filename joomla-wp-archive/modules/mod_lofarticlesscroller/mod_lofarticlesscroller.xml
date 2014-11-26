@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+    <name>Lof ArticlesSroller Module</name>
+    <creationDate>March 2010</creationDate>
+    <author>LandOfCoder</author>
+    <copyright>GNU / GPL</copyright>
+    <authorEmail>landofcoder@gmail.com</authorEmail>
+    <authorUrl>http://www.landofcoder.com</authorUrl>
+    <version>1.0.0</version>
+	<description>MODULE DESCRIPTION</description>
+     <files>
+         <filename module="mod_lofarticlesscroller">mod_lofarticlesscroller.php</filename>
+         <filename module="mod_lofarticlesscroller">helper.php</filename>
+         <folder module="mod_lofarticlesscroller">libs</folder>
+		  <folder module="mod_lofarticlesscroller">assets</folder>
+         <folder module="mod_lofarticlesscroller">tmpl</folder>
+    </files>
+	<languages>
+		<language tag="en-GB">languages/en-GB.mod_lofarticlesscroller.ini</language>
+	</languages>
+    <params addpath="/modules/mod_lofarticlesscroller/libs/elements">
+		<param name="moduleclass_sfx" type="text" default="" label="MODULE CLASS SUFFIX" description="PARAMMODULECLASSSUFFIX" />	
+	
+	
+		
+		<param name="max_items_per_page" type="text" default="3" label="MAX ITEM PAGE" description="MAX ITEM PAGE DESC"></param>
+		<param name="max_items_per_row" type="text" default="3" label="MAX ITEMS PER ROWS" description="MAX ITEMS PER ROWS DESC"></param>
+		
+		<param name="category" type="category" default="" label="CATEGORIES SELECTION"  description="CATEGORIES SELECTION DESC" />
+		
+		<param name="ordering" type="list" default="created_asc" label="ARTCILES SORTED BY" description="ARTCILES SORTED BY DESC">
+			<option value="ordering_asc">ORDERING - ASCENDING</option>
+			<option value="ordering_desc">ORDERING - DESCENDING</option>
+			<option value="hits_asc">HIT - ASCENDING</option>
+			<option value="hits_desc">HIT - DESCENDING</option>
+			<option value="created_desc">DATE - ASCENDING</option>
+			<option value="created_asc">DATE - DESCENDING</option>
+		</param>
+		<param name="limit_items" type="text" default="9" label="LIMIT ITEMS" description="LIMIT ITEMS DESC" />
+		<param name="title_max_chars" type="text" default="100" label="TITLE MAX CHARS" description="TITLE MAX CHARS DESC" />
+		<param name="description_max_chars" type="text" default="100" label="DESCIPTION MAX CHARS" description="DESCIPTION MAX CHARS DESC" />
+		
+		<param name="layout_style" type="list" default="hrright" label="PLAY STYLE" description="PLAY STYLE DESC">
+			<option value="hrleft">HORIZONTAL RIGHT TO LEFT</option>
+			<option value="hrright">HORIZONTAL LEFT TO RIGHT</option>
+			<option value="vrup">VERTICAL DOWN TO UP</option>
+			<option value="vrdown">VERTICAL UP TO DOWN</option>
+			<option value="opacity">OPACITY</option>
+		</param>
+		
+		<param name="interval" type="text" default="2000" label="INTERVAL" description="INTERVAL DESC" />
+		<param name="duration" type="text" default="500" label="ANIMATION DURATION" description="ANIMATION DURATION DESC" />
+		<param name="effect" type="list" default="Fx.Transitions.Quad.easeInOut" label="ANIMATION TRANSITION" description="ANIMATION TRANSITION DESC">
+		   <option value="Fx.Transitions.linear">linear</option>
+		    <option value="Fx.Transitions.quartOut">QuartOut</option>
+			<option value="Fx.Transitions.Quad.easeIn">Quad.easeIn</option>
+			<option value="Fx.Transitions.Quad.easeOut">Quad.easeOut</option>
+			<option value="Fx.Transitions.Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Fx.Transitions.Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Fx.Transitions.Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Fx.Transitions.Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Fx.Transitions.Quart.easeIn">Quart.easeIn</option>
+			<option value="Fx.Transitions.Quart.easeOut">Quart.easeOut</option>
+			<option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Fx.Transitions.Quint.easeIn">Quint.easeIn</option>
+			<option value="Fx.Transitions.Quint.easeOut">Quint.easeOut</option>
+			<option value="Fx.Transitions.Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Fx.Transitions.Pow.easeIn">Pow.easeIn</option>
+			<option value="Fx.Transitions.Pow.easeOut">Pow.easeOut</option>
+			<option value="Fx.Transitions.Pow.easeInOut">Pow.easeInOut</option>
+			<option value="Fx.Transitions.Expo.easeIn">Expo.easeIn</option>
+			<option value="Fx.Transitions.Expo.easeOut">Expo.easeOut</option>
+			<option value="Fx.Transitions.Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Fx.Transitions.Circ.easeIn">Circ.easeIn</option>
+			<option value="Fx.Transitions.Circ.easeOut">Circ.easeOut</option>
+			<option value="Fx.Transitions.Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Fx.Transitions.Sine.easeIn">Sine.easeIn</option>
+			<option value="Fx.Transitions.Sine.easeOut">Sine.easeOut</option>
+			<option value="Fx.Transitions.Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Fx.Transitions.Back.easeIn">Back.easeIn</option>
+			<option value="Fx.Transitions.Back.easeOut">Back.easeOut</option>
+			<option value="Fx.Transitions.Back.easeInOut">Back.easeInOut</option>
+			<option value="Fx.Transitions.Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Fx.Transitions.Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Fx.Transitions.Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Fx.Transitions.Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Fx.Transitions.Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Fx.Transitions.Elastic.easeInOut">Elastic.easeInOut</option>				  
+        </param> 
+		
+		<param name="show_readmore" type="radio" default="1" label="SHOW READ MORE" description="SHOW READ MORE DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="show_date" type="radio" default="1" label="SHOW DATE" description="SHOW DATE DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		
+		<param name="auto_start" type="radio" default="1" label="AUTO START" description="AUTO START DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		
+		<param name="display_button" type="list" default="" label="DISPLAY BUTTON" description="DISPLAY BUTTON DESC">
+			<option value="">ALL</option>
+			<option value="pre-next">PRE - NEXT</option>
+			<option value="bullets">BULLETS</option>
+			<option value="hidden">HIDDEN</option>
+		</param>
+		
+		<param name="show_thumbnail" type="radio" default="1" label="SHOW THUMBNAIL" description="SHOW THUMBNAIL DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="thumbnail_width" type="text" default="180" label="THUMBNAIL WIDTH" description="THUMBNAIL WIDTH DESC" />
+		<param name="thumbnail_height" type="text" default="60" label="THUMBNAIL HEIGHT" description="THUMBNAIL HEIGHT DESC" />
+		<param name="thumbnail_alignment" type="list" default="" label="THUMBNAIL ALIGMENT" description="THUMBNAIL ALIGMENT DESC">
+			<option value="">AUTOMATIC</option>
+			<option value="img-left">LEFT</option>
+			<option value="img-right">RIGHT</option>
+		</param>
+	</params>
+	
+	<params group="advanced">
+		<param name="enable_cache" type="list" default="1" label="CACHING" description="CACHING DESC">
+			<option value="1">Use Cache</option>
+			<option value="0">Don't cache</option>
+		</param>
+		<param name="cache_time" type="text" default="30" label="CACHE TIME" description="CACHE TIME DESC" />
+		
+		<param name="auto_renderthumb" type="radio" default="1" label="RENDER THUMBNAIL" description="RENDER THUMBNAIL DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="module_height" type="text" default="200" label="MODULE HEIGHT" description="MODULE HEIGHT DESC"></param>
+		<param name="module_width" type="text" default="620" label="MODULE WIDTH" description="MODULE WIDTH DESC"></param>
+		 <param name="open_target" type="list" default="parent" label="CLICK LINK OPEN IN" description="CLICK LINK OPEN IN DESC">
+			  <option value="blank">New window</option>
+			  <option value="parent">Parent window</option>
+		 </param>	
+			
+	</params>
+
+		
+</install>

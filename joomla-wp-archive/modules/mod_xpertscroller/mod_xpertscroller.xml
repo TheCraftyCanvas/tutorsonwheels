@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+    <name>XpertScroller</name>
+    <author>ThemeXpert</author>
+    <creationDate>December 4, 2010</creationDate>
+    <authorEmail>support@themexpert.com</authorEmail>
+    <authorUrl>http://www.themexpert.com</authorUrl>
+    <copyright>(C) 2005 - 2010 ThemeXpert, LLC. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only</license>
+    <version>1.3</version>
+    <description>XS_DESC</description>
+    
+    <files>
+        <filename module="mod_xpertscroller">mod_xpertscroller.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>admin</folder>
+        <folder>core</folder>
+        <folder>interface</folder>
+        <folder>tmpl</folder>
+    </files>
+    
+    <languages>
+        <language tag="en-GB">language/en-GB.mod_xpertscroller.ini</language>
+    </languages>
+    
+    <params addpath="/modules/mod_xpertscroller/admin/elements">
+    
+        <param name="" type="comcheck" default="" label="" description=""/>
+        
+        <param type="spacer" default="BASIC_SETTINGS" />
+        
+            <param name="moduleclass_sfx" type="text" default="" label="MODULECLASS_SFX" description="MODULECLASS_SFX_DESC" />
+            
+            <param name="auto_module_id" type="radio" default="1" label="AUTO_MODULE_ID" description="AUTO_MODULE_ID_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            
+            <param name="module_unique_id" type="text" default="xs_1" label="MODULE_UNIQUE_ID" description="MODULE_UNIQUE_ID_DESC" />
+            
+            <param name="load_jquery" type="radio" default="1" label="LOAD_JQUERY" description="LOAD_JQUERY_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            
+            <param name="jquery_source" type="list" default="local" label="JQUERY_SOURCE" description="JQUERY_SOURCE_DESC">
+                <option value="local">From Module Core</option>
+                <option value="google_cdn">From Google CDN</option>
+            </param>
+            
+            <param name="content_source" type="list" default="joomla" label="CONTENT_SOURCE" description="CONTENT_SOURCE_DESC">
+                <option value="joomla">Joomla Core Content</option>
+                <option value="k2">K2 Content</option>
+                <option value="vm">Virtuemart</option>
+            </param>
+        
+        <param type="spacer" default="JOOMLA_ARTICLE_SETTINGS" class="xs_joomla" />
+        
+            <param name="joomla_cat_id" type="categories" default="" label="JOOMLA_CATEGORIES" description="JOOMLA_CATEGORIES_DESC" />
+            
+            <param name="show_front" type="list" default="1" label="SHOW_FRONTPAGE_ITEM" description="SHOW_FRONTPAGE_ITEM_DESC">
+                <option value="1">Show</option>
+                <option value="0">Hide</option>
+                <option value="2">Only Frontpage Items</option>
+            </param>
+            
+            <param name="item_ordering" type="list" default="" label="ITEM_ORDERING" description="ITEM_ORDERING_DESC">
+                <option value="">Default</option>
+                <option value="date">Oldest first</option>
+                <option value="rdate">Most recent first</option>
+                <option value="alpha">Title Alphabetical</option>
+                <option value="ralpha">Title Reverse-Alphabetical</option>
+                <option value="order">Ordering</option>
+            </param>
+        
+        <param type="spacer" default="K2_ARTICLE_SETTINGS" class="xs_k2" />
+        
+            <param name="k2_cat_filter" type="radio" default="0" label="K2_CATEGORY_FILTER" description="K2_CATEGORY_FILTER_DESC">
+              <option value="0">All</option>
+              <option value="1">Select</option>
+            </param>
+            
+            <param name="k2_cat_id" type="k2categories" default="" label="K2_CATEGORIES_ID" description="K2_CATEGORIES_ID_DESC" />
+            
+            <param name="k2_get_children" type="radio" default="0" label="K2_GET_CHILDREN_ITEM" description="K2_GET_CHILDREN_ITEM_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            <param name="k2_item_ordering" type="list" default="" label="K2_ITEM_ORDERING" description="K2_ITEM_ORDERING_DESC">
+                <option value="">Default</option>
+                <option value="date">Oldest first</option>
+                <option value="rdate">Most recent first</option>
+                <option value="alpha">Title Alphabetical</option>
+                <option value="ralpha">Title Reverse-Alphabetical</option>
+                <option value="order">Ordering</option>
+                <option value="rorder">Ordering Reverse</option>
+                <!--<option value="hits">Most popular</option>-->
+                <option value="best">Highest rated</option>
+                <option value="comments">Most commented</option>
+                <option value="rand">Random ordering</option>
+            </param>
+            <param name="k2_featured_items" type="list" default="1" label="K2_FEATURED_ITEMS" description="K2_FEATURED_ITEMS_DESC">
+                <option value="0">Hide</option>
+                <option value="1">Show</option>
+                <option value="2">Show only Featured Items</option>
+            </param>
+            
+            <param name="k2_img_size" type="list" default="M" label="K2_IMG_SIZE" description="K2_IMG_SIZE_DESC">
+                <option value="XS">XSmall</option>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <option value="XL">XLarge</option>
+            </param>
+            
+        <param type="spacer" default="VM_SETTINGS" class="xs_vm" />
+            <param name="product_type" type="list" label="PRODUCT_TYPE" description="PRODUCT_TYPE_DESC">
+                <option value="latest">Latest Products</option>
+                <option value="random">Random Products</option>
+            </param>
+            
+            <param name="vm_cat_id" type="text" label="VM_CAT_ID" description="VM_CAT_ID_DESC" />
+            
+            <param name="show_price" type="radio" default="1" label="PRODUCT_PRICE" description="PRODUCT_PRICE_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+        
+            <param name="show_addtocart" type="radio" default="1" label="SHOW_CART" description="SHOW_CART_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+        <param type="spacer" default="LAYOUT_SETTINGS" label="" description="" />
+        
+            <param name="scroller_layout" type="list" default="basic_h" label="SCROLLER_LAYOUT" description="SCROLLER_LAYOUT_DESC">
+                <option value="basic_h">Basic Horizontal</option>
+                <option value="basic_v">Basic Vertical </option>
+            </param>
+            
+            <param name="module_width" type="text" default="400" label="MODULE_WIDTH" description="MODULE_WIDTH_DESC" />
+            
+            <param name="module_height" type="text" default="200" label="MODULE_HEIGHT" description="MODULE_HEIGHT_DESC" />
+            
+            <param name="max_article" type="text" default="10" label="MAX_ARTICLE" description="MAX_ARTICLE_DESC" />
+            
+            <param name="col_amount" type="text" default="5" label="NUMBER_COL" description="NUMBER_COL_DESC" />
+            
+            <param name="image_position" type="list" default="top" label="IMAGE_POSITION" description="IMAGE_POSITION_DESC" >
+                <option value= "top">Top</option>
+                <option value= "left">Left</option>
+                <option value= "right">Right</option>
+            </param>
+            
+        <param type="spacer" default="SCROLLER_SETTINGS" label="" description="" />
+            
+            
+            <param name="animation_style" type="radio" default="animation_h" label="SCROLLER_STYLE" description="SCROLLER_STYLE_DESC">
+                <option value="animation_h">Horizontal</option>
+                <option value="animation_v">Vertical </option>
+            </param>
+            
+            <param name="animation_speed" type="text" default="1000" label="ANIMATION_SPEED" description="ANIMATION_SPEED_DESC" />
+            
+            <param name="repeat" type="radio" default="1" label="REPEAT" description="REPEAT_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            
+            <param name="keyboard_navigation" type="radio" default="1" label="KEYBOARD_NAVIGATION" description="KEYBOARD_NAVIGATION_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            
+            <param name="auto_play" type="radio" default="0" label="AUTO_PLAY" description="AUTO_PLAY_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+
+            <param name="navigator" type="radio" default="1" label="NAVIGATOR" description="NAVIGATOR_DESC">
+                    <option value="1">Enable</option>
+                    <option value="0">Disable</option>
+            </param>
+            
+            <param name="control_margin" type="text" default="40px 10px" label="CONTROL_MARGIN" description="CONTROL_MARGIN_DESC" />
+            
+            <param name="interval" type="text" default="1000" label="INTERVAL" description="INTERVAL_DESC" />
+            
+            <param name="auto_pause" type="radio" default="1" label="AUTO_PAUSE" description="AUTO_PAUSE_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+        
+        <param type="spacer" default="ARTICLE_SETTINGS" />
+            
+            <param name="article_title" type="radio" default="1" label="ARTICLE_TITLE" description="ARTICLE_TITLE_DESC">
+                <option value="1">Show</option>
+                <option value="0">Hide</option>
+            </param>
+            
+            <param name="title_link" type="radio" default="0" label="TITLE_LINK" description="TITLE_LINK_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            
+            <param name="item_image" type="radio" default="1" label="ITEM_IMG" description="ITEM_IMG_DESC">
+                <option value="1">Show</option>
+                <option value="0">Hide</option>
+            </param>
+            
+            <param name="image_link" type="radio" default="1" label="IMAGE_LINK" description="IMAGE_LINK_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            
+            <param name="browser_nav" type="list" default="" lable="BROWSER_NAV" description="BROWSER_NAV_DESC" >
+                <option value="parent">Parent Window</option>
+                <option value="new">New Window</option>
+            </param>
+            
+            <param name="intro_text" type="radio" default="0" label="INTRO_TEXT" description="INTRO_TEXT_DESC">
+                <option value="1">Show</option>
+                <option value="0">Hide</option>
+            </param>
+            
+            <param name="intro_text_limit" type="text" default="100" label="INTRO_TEXT_LIMIT" description="INTRO_TEXT_LIMIT_DESC" />
+
+            <param name="readmore" type="radio" default="0" label="READMORE" description="READMORE_DESC">
+                <option value="1">Show</option>
+                <option value="0">Hide</option>
+            </param>
+
+        <param type="spacer" default="IMAGE_SETTINGS" />
+            <param name="image_resize" type="radio" default="1" label="IMAGE_RESIZE" description="IMAGE_RESIZE_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+                        
+            <param name="k2_image_resize" type="radio" default="0" label="K2_IMAGE_RESIZE" description="K2_IMAGE_RESIZE_DESC">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </param>
+            <param name="image_width" type="text" default="150" label="IMAGE_WIDTH" description="IMAGE_WIDTH_DESC" />
+            
+            <param name="image_height" type="text" default="150" label="IMAGE_HEIGHT" description="IMAGE_HEIGHT_DESC" />
+            
+    </params>
+</install>

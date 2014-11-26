@@ -1,0 +1,172 @@
+/**
+ * $ModDesc
+ * 
+ * @version		$Id: helper.php $Revision
+ * @package		modules
+ * @subpackage	$Subpackage.
+ * @copyright	Copyright (C) Dec 2009 LandOfCoder.com <@emai:landofcoder@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+ */
+@charset "utf-8";
+/* CSS Document */
+.lof-articlessroller{
+	position:relative;
+}
+
+.lof-articlessroller .lof-row {
+	float:left;	
+	position:relative;
+	overflow:hidden
+}
+
+.lof-articlessroller .lof-row .lof-inner {
+	padding:0;
+	
+}
+/* main flash */
+.lof-articlessroller .lof-main-wapper{
+	margin-right:auto;
+	overflow:hidden;
+	padding:0px;
+	position:relative;
+	overflow:hidden;
+}
+
+.lof-articlessroller .lof-main-wapper .lof-main-item{
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.lof-articlessroller .lof-main-wapper .lof-main-item img{
+	padding:0 10px 10px 0;	
+	background: url(images/img-bg.gif) no-repeat bottom right;
+	 margin-right:10px;
+}
+
+.lof-articlessroller .lof-clearfix {
+	width:100%;
+	background:#EEE; 
+	clear:both;
+	height:2px;
+	margin:12px 0px;
+
+}
+
+.lof-articlessroller  h4 {
+	padding:0;
+	margin:0;
+	text-transform:none
+}
+.lof-articlessroller  h4 a{
+	color:#333;
+	margin:0;
+	font-size:100%;
+}
+.lof-articlessroller .lof-main-item-desc h3 a:hover{
+	color:#FF6;
+	text-decoration:underline;
+}
+
+
+/* item navigator */
+.lof-articlessroller ul.lof-navigator{
+	top:0;
+	padding:0;
+	margin:0;
+	position:absolute;
+	width:100%;
+}
+
+.lof-articlessroller .lof-navigator-outer{
+	position:relative;
+	margin-right:20px;
+	overflow:hidden;
+	float:right;
+}
+.lof-articlessroller .lof-navigator li{
+	background:none!important;
+	padding:0!important;
+	margin:0!important;
+	text-indent:9999px;
+	cursor:hand; cursor:pointer;
+	float:left
+}
+.lof-articlessroller .lof-navigator li span{
+	display:block;
+	width:11px;
+	height:20px;
+	background:url(images/bg-buttons.png) no-repeat -0px -0px;
+}
+.lof-articlessroller .lof-navigator li.active span, .lof-articlessroller .lof-navigator li:hover span{
+		background:url(images/bg-buttons.png) no-repeat -11px -0px;
+}
+
+.lof-articlessroller .lof-navigator-wapper {
+	position:absolute;
+	right:04px;
+	top:-30px;
+	overflow:hidden;
+}
+.lof-articlessroller .lof-next, .lof-articlessroller .lof-previous{
+	float:right;
+	height:17px;
+	width:22px;	
+	display:block;
+	text-indent:9999px;
+}
+.lof-articlessroller .lof-next{
+	background:url(images/bg-buttons.png) no-repeat -66px -0px;
+	margin-right:0px;
+}
+.lof-articlessroller .lof-next:hover{
+	background:url(images/bg-buttons.png) no-repeat -22px -0px;
+	margin-right:0px;
+}
+.lof-articlessroller .lof-previous{
+	background:url(images/bg-buttons.png) no-repeat right  -0px ;
+}
+.lof-articlessroller .lof-previous:hover{
+	background:url(images/bg-buttons.png) no-repeat -44px -0px;
+}
+
+/** css for override **/
+.img-left{
+	float:left;
+	padding:0 15px 8px 0px;
+}
+.img-right{
+	float:right;
+	margin:3px
+}
+.lof-date {
+	font-size:90%;
+	padding-top:6px;
+	color:#999;
+}
+.lof-image-link{
+	background:url(images/load-indicator.gif) no-repeat 50% 50%;
+	padding-bottom:15px;
+	
+}
+/**
+ * suffix class 
+ */
+ .lof-black {
+	 
+ }
+ .lof-blue{
+	 
+ }
+ .lof-top-white h3{
+	
+ }
+.lof-readmore
+{
+	size:11px;
+	color:#666;
+	text-decoration:none;
+	font-weight:bold;
+}

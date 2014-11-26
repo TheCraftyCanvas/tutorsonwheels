@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+	<name>S5 Quick Contact</name>
+	<author>Shape5.com</author>
+	<creationDate>November 2007</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@shape5..com</authorEmail>
+	<authorUrl>www.shape5.com</authorUrl>
+	<version>1.1.0</version>
+	<description>Shape 5 Quick Contact Module</description>
+	<files>
+		<filename module="mod_s5_quick_contact">mod_s5_quick_contact.php</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="pretext" type="textarea" cols="40" rows="5" default="" label="Pre-Text" description="Enter any pre-text message." />
+		<param name="adminemail" type="text" default="" label="Emails should be sent to" description="Enter any admin email." />
+		<param name="subjectprefix" type="text" default="Website Submission -" label="Submit Prefix" description="Enter any prefix for incoming messages." />
+		<param name="nametext" type="text" default="Name..." label="Text for name field" />
+		<param name="emailtext" type="text" default="Email..." label="Text for email field" />
+		<param name="subjecttext" type="text" default="Subject..." label="Text for subject field" />
+		<param name="bodytext" type="text" default="Your Message..." label="Text for comment field" />
+		<param name="spamtext" type="text" default="Enter The Code" label="Text for spam field" />
+		<param name="sendtext" type="text" default="Send Message" label="Text for send button" />
+		<param name="width" type="text" default="80%" label="Width for text boxes (can be px or %)" description="Width of all text boxes." />
+		<param name="height" type="text" default="55px" label="Height for text area (can be px or %)" description="Height for text area." />
+		<param name="thankyou" type="text" default="Your email is now being submitted - Thank you!" label="Message displayed when submitting a successful email." />
+		<param name="emailerror" type="text" default="Your email address is not valid, please check again - Thank you!" label="Message displayed when submitting an incorrectly formatted email address." />
+		<param name="notcomplete" type="text" default="All fields are required, please complete the form - Thank you!" label="Message displayed when either the name, email or subject fields are blank." />
+		<param name="spamerror" type="text" default="Your spam verification answer is incorrect." label="Message displayed when the spam verification field is wrong." />
+		<param name="spacer1" type="spacer" default="Emails containing the following words will be excluded." label="" />
+		<param name="ex1" type="text" default="" label="Exclusion 1" />
+		<param name="ex2" type="text" default="" label="Exclusion 2" />
+		<param name="ex3" type="text" default="" label="Exclusion 3" />
+		<param name="ex4" type="text" default="" label="Exclusion 4" />
+		<param name="ex5" type="text" default="" label="Exclusion 5" />
+		<param name="ex6" type="text" default="" label="Exclusion 6" />
+		<param name="ex7" type="text" default="" label="Exclusion 7" />
+		<param name="ex8" type="text" default="" label="Exclusion 8" />
+		<param name="ex9" type="text" default="" label="Exclusion 9" />
+		<param name="ex10" type="text" default="" label="Exclusion 10" />
+		<param name="ex11" type="text" default="" label="Exclusion 11" />
+		<param name="ex12" type="text" default="" label="Exclusion 12" />
+		<param name="ex13" type="text" default="" label="Exclusion 13" />
+		<param name="ex14" type="text" default="" label="Exclusion 14" />
+		<param name="ex15" type="text" default="" label="Exclusion 15" />
+		<param name="ex16" type="text" default="" label="Exclusion 16" />
+		<param name="ex17" type="text" default="" label="Exclusion 17" />
+		<param name="ex18" type="text" default="" label="Exclusion 18" />
+		<param name="ex19" type="text" default="" label="Exclusion 19" />
+		<param name="ex20" type="text" default="" label="Exclusion 20" />
+		<param name="ex21" type="text" default="" label="Exclusion 21" />
+		<param name="ex22" type="text" default="" label="Exclusion 22" />
+		<param name="ex23" type="text" default="" label="Exclusion 23" />
+		<param name="ex24" type="text" default="" label="Exclusion 24" />
+		<param name="ex25" type="text" default="" label="Exclusion 25" />
+		<param name="ex26" type="text" default="" label="Exclusion 26" />
+		<param name="ex27" type="text" default="" label="Exclusion 27" />
+		<param name="ex28" type="text" default="" label="Exclusion 28" />
+		<param name="ex29" type="text" default="" label="Exclusion 29" />
+		<param name="ex30" type="text" default="" label="Exclusion 30" />
+	</params>
+</install>

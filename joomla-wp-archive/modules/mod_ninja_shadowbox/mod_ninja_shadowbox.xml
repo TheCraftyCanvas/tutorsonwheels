@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>Ninja Shadowbox</name>
+	<author>Uwe Walter</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>(C) 2007-2009 NinjaForge</copyright>
+	<license>http://www.gnu.org/copyleft/lgpl.html GNU/LGPL</license>
+	<authorEmail>uwe@ninjaforge.com</authorEmail>
+	<authorUrl>http://ninjaforge.com/</authorUrl>
+	<version>2.0.9</version>
+    <description>NINJACONTENT</description>
+	<files>
+		<filename module="mod_ninja_shadowbox">mod_ninja_shadowbox.php</filename>
+		<filename>index.html</filename>
+    <folder>ninja_shadowbox/</folder>
+	</files>
+  <languages folder="language">
+    <language tag="en-GB">en-GB.mod_ninja_shadowbox.ini</language>
+		<language tag="de-DE">de-DE.mod_ninja_shadowbox.ini</language>
+		<language tag="da-DK">da-DK.mod_ninja_shadowbox.ini</language>
+		<language tag="ru-RU">ru-RU.mod_ninja_shadowbox.ini</language>
+	</languages>
+	<params> 
+		<param name="jstype" type="list" default="jquery" label="JSTYPE_LABEL" description="JSTYPE_DESCRIPTION" >
+			<option value="jquery">JQuery</option>
+			<option value="dojo">Dojo</option>
+			<option value="ext">EXT</option>
+			<option value="prototype">ProtoType</option>
+			<option value="yui">YUI</option>
+		</param>
+		<param name="core" type="radio" default="1" label="CORE_LABEL" description="CORE_DESCRIPTION">
+			<option value="1">INCLUDE</option>
+			<option value="0">DONT_INCLUDE</option>
+		</param>
+		<param name="lang" type="list" default="en" label="LANG_LABEL" description="LANG_DESCRIPTION">
+			<option value="ar">LANG_SELECT_AR</option>
+			<option value="ca">LANG_SELECT_CA</option>
+			<option value="cs">LANG_SELECT_CS</option>
+			<option value="de-DE">LANG_SELECT_DE_DE</option>
+			<option value="de-CH">LANG_SELECT_DE_CH</option>
+			<option value="en">LANG_SELECT_EN</option>
+			<option value="es">LANG_SELECT_ES</option>
+			<option value="et">LANG_SELECT_ET</option>
+			<option value="fi">LANG_SELECT_FI</option>
+			<option value="fr">LANG_SELECT_FR</option>
+			<option value="gl">LANG_SELECT_GL</option>
+			<option value="he">LANG_SELECT_HE</option>
+			<option value="id">LANG_SELECT_ID</option>
+			<option value="is">LANG_SELECT_IS</option>
+			<option value="it">LANG_SELECT_IT</option>
+			<option value="ko">LANG_SELECT_KO</option>
+			<option value="my">LANG_SELECT_MY</option>
+			<option value="nl">LANG_SELECT_NL</option>
+			<option value="da">LANG_SELECT_DA</option>
+			<option value="no">LANG_SELECT_NO</option>
+			<option value="pl">LANG_SELECT_PL</option>
+			<option value="pt-PT">LANG_SELECT_PT_PT</option>
+			<option value="pt-BR">LANG_SELECT_PT_BR</option>
+			<option value="ro">LANG_SELECT_RO</option>
+			<option value="ru">LANG_SELECT_RU</option>
+			<option value="sk">LANG_SELECT_SK</option>
+			<option value="sv">LANG_SELECT_SV</option>
+			<option value="tr">LANG_SELECT_TR</option>
+			<option value="zh-CN">LANG_SELECT_ZH_CN</option>
+			<option value="zh-TW">LANG_SELECT_ZH_TW</option>
+		</param>
+		<param name="skin" type="list" default="classic" label="SKIN_LABEL" description="SKIN_DESCRIPTION" >
+			<option value="classic">classic</option>
+			<option value="concept">concept</option>
+			<option value="infernal">infernal</option>
+			<option value="nova">nova</option>
+			<option value="custom">custom</option>
+		</param>
+		<param name="incjs" type="radio" default="1" label="INCJS_LABEL" description="INCJS_DESCRIPTION">
+			<option value="1">INCLUDE</option>
+			<option value="0">DONT_INCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="SHADOWBOX_PLAYERS_LABEL" description="SHADOWBOX_PLAYERS_DESCRIPTION" />
+		<param name="img" type="radio" default="1" label="IMG_LABEL" description="IMG_DESCRIPTION">
+			<option value="1">ENABLE</option>
+			<option value="0">DISABLE</option>
+		</param>
+		<param name="swf" type="radio" default="1" label="SWF_LABEL" description="SWF_DESCRIPTION">
+			<option value="1">ENABLE</option>
+			<option value="0">DISABLE</option>
+		</param>
+		<param name="flv" type="radio" default="1" label="FLV_LABEL" description="FLV_DESCRIPTION">
+			<option value="1">ENABLE</option>
+			<option value="0">DISABLE</option>
+		</param>
+		<param name="qt" type="radio" default="1" label="QT_LABEL" description="QT_DESCRIPTION">
+			<option value="1">ENABLE</option>
+			<option value="0">DISABLE</option>
+		</param>
+		<param name="wmp" type="radio" default="1" label="WMP_LABEL" description="WMP_DESCRIPTION">
+			<option value="1">ENABLE</option>
+			<option value="0">DISABLE</option>
+		</param>
+		<param name="iframe" type="radio" default="1" label="IFRAME_LABEL" description="IFRAME_DESCRIPTION">
+			<option value="1">ENABLE</option>
+			<option value="0">DISABLE</option>
+		</param>
+		<param name="html" type="radio" default="1" label="HTML_LABEL" description="HTML_DESCRIPTION">
+			<option value="1">ENABLE</option>
+			<option value="0">DISABLE</option>
+		</param>
+		<param name="imageMap" type="text" label="IMAGEMAPID_LABEL" description="IMAGEMAPID_DESCRIPTION" />
+		<param name="@spacer" type="spacer" default="" label="SHADOWBOX_IEFIX_LABEL" description="SHADOWBOX_IEFIX_DESCRIPTION" />
+		<param name="emulate" type="radio" default="meta" label="FIXIE_LABEL" description="FIXIE_DESCRIPTION">
+      <option value="meta">FIXIE_META</option>
+			<option value="header">FIXIE_HEADER</option>
+			<option value="no">FIXIE_NO</option>
+	  </param>
+    <param name="cache" type="radio" default="0" label="ENABLE_CACHE" description="ENABLE_CACHE_DESCRIPTION">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </param>	  
+   </params>
+
+	<params group="advanced"> 
+		<param name="useadv" type="list" default="0" label="USEADV_LABEL" description="USEADV_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="animate" type="list" default="1" label="ANIMATE_LABEL" description="ANIMATE_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="animateFade" type="list" default="1" label="ANIMATE_FADE_LABEL" description="ANIMATE_FADE_DESCRIPTION" >
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="animSequence" type="list" default="wh" label="ANIMSEQUENCE_LABEL" description="ANIMSEQUENCE_DESCRIPTION">
+			<option value="wh">ANIMSEQUENCE_WH</option>
+			<option value="hw">ANIMSEQUENCE_HW</option>
+			<option value="sync">ANIMSEQUENCE_SYNC</option>
+		</param>
+		<param name="flvPlayer" type="text" default="modules/mod_ninja_shadowbox/ninja_shadowbox/js/flvplayer.swf" label="FLVPLAYER_LABEL" description="FLVPLAYER_DESCRIPTION" />
+		<param name="overlayColor" type="text" default="#000" label="OVERLAYCOLOR_LABEL" description="OVERLAYCOLOR_DESCRIPTION" />
+		<param name="overlayOpacity" type="text" default="0.85" label="OVERLAYOPACITY_LABEL" description="OVERLAYOPACITY_DESCRIPTION" />
+		<param name="flashBgColor" type="text" default="#ffffff" label="FLASHBGCOLOR_LABEL" description="FLASHBGCOLOR_DESCRIPTION" />
+		<param name="listenOverlay" type="list" default="1" label="LISTENOVERLAY_LABEL" description="LISTENOVERLAY_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="autoplayMovies" type="list" default="1" label="AUTOPLAYMOVIES_LABEL" description="AUTOPLAYMOVIES_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="showMovieControls" type="list" default="1" label="SHOWMOVIECONTROLS_LABEL" description="SHOWMOVIECONTROLS_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="slideshowDelay" type="text" default="0" label="SLIDESHOWDELAY_LABEL" description="SLIDESHOWDELAY_DESCRIPTION" />
+		<param name="resizeDuration" type="text" default="0.35" label="RESIZEDURATION_LABEL" description="RESIZEDURATION_DESCRIPTION" />
+		<param name="fadeDuration" type="text" default="0.35" label="FADEDURATION_LABEL" description="FADEDURATION_DESCRIPTION" />
+		<param name="displayNav" type="list" default="1" label="DISPLAYNAV_LABEL" description="DISPLAYNAV_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="continuous" type="list" default="0" label="CONTINOUS_LABEL" description="CONTINOUS_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="displayCounter" type="list" default="1" label="DISPLAYCOUNTER_LABEL" description="DISPLAYCOUNTER_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="counterType" type="list" default="default" label="COUNTERTYPE_LABEL" description="COUNTERTYPE_DESCRIPTION">
+			<option value="skip">COUNTERTYPE_SKIP</option>
+			<option value="default">COUNTERTYPE_DEFAULT</option>
+		</param>
+		<param name="counterLimit" type="text" default="10" label="COUNTERLIMIT_LABEL" description="COUNTERLIMIT_DESCRIPTION" />
+		<param name="handleOversize" type="radio" default="resize" label="HANDLEOVERSIZE_LABEL" description="HANDLEOVERSIZE_DESCRIPTION">
+			<option value="none">HANDLEOVERSIZE_NONE</option>
+			<option value="resize">HANDLEOVERSIZE_RESIZE</option>
+			<option value="drag">HANDLEOVERSIZE_DRAG</option>
+		</param>
+		<param name="initialHeight" type="text" default="160" label="INITIALHEIGHT_LABEL" description="INITIALHEIGHT_DESCRIPTION" />
+		<param name="initialWidth" type="text" default="320" label="INITIALWIDTH_LABEL" description="INITIALWIDTH_DESCRIPTION" />
+		<param name="enableKeys" type="list" default="1" label="ENABLEKEYS_LABEL" description="ENABLEKEYS_DESCRIPTION">
+			<option value="0">FALSE</option>
+			<option value="1">TRUE</option>
+		</param>
+		<param name="handleException" type="text" default="null" label="HANDLEEXCEPTION_LABEL" description="HANDLEEXCEPTION_DESCRIPTION" />
+		<param name="handleUnsupported" type="radio" default="link" label="HANDLEUNSUPPORTED_LABEL" description="HANDLEUNSUPPORTED_DESCRIPTION">
+			<option value="link">HANDLEUNSUPPORTED_LINK</option>
+			<option value="remove">HANDLEUNSUPPORTED_REMOVE</option>
+		</param>
+	</params>
+</install>

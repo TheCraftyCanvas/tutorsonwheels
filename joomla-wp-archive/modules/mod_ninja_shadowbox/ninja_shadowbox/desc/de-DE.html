@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ninja Shadowbox Beschreibung</title>
+<style type="text/css">
+  
+	html, body {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 80%;
+	}
+
+          #nfouterdiv {
+            background: url('../images/bg.png') repeat-x #ffffff 0 0;
+            width: 550px;
+            height:700px;
+            border:1px solid #dddddd;
+            position:relative;
+            margin:auto;
+          }
+  
+        .menu {
+            float:right;
+            height:68px;
+            width: 100%;
+            background: url('../images/hdrbg.png') no-repeat 100% 100%;
+        }
+        
+        .menu ul {
+            margin:0px;
+            padding:0px;
+            list-style:none;
+            text-align:center;
+            float:right;
+        }
+        
+        .menu li {
+            line-height:60px;
+            background:none;
+            margin:0px 0px 0px;
+            padding:0px ;
+            cursor:pointer; 
+            float:left;
+            height:68px;
+            width:125px;
+        }
+        
+        
+        
+        .menu li#tablink1.tabactive, .menu li#tablink1:hover {
+            background: url('../images/tabbg.png') no-repeat 0 0;
+        }
+        
+        .menu li#tablink2.tabactive, .menu li#tablink2:hover {
+            background: url('../images/tabbg.png') no-repeat -125px 0;
+        }
+        
+        .menu li#tablink3.tabactive, .menu li#tablink3:hover {
+            background: url('../images/tabbg.png') no-repeat -250px 0;
+        }
+        
+        .tabtxt {
+            padding: 0 0 0 20px;
+            width:125px;
+            height:60px;
+            text-indent: -9999px;
+            display:block;
+            float:left;
+        }
+        
+        
+       .njtab{
+            
+        height:640px;
+            width: auto;
+            text-align:left;
+            padding:0px 5px 6px 5px;
+            font-size:12px;
+            margin-bottom:5px;
+            clear:right;
+        }
+        
+        .njtab .inner {
+            height:585px;
+            overflow-y:auto;
+            overflow-x:hidden;
+            width:100%;
+        
+        }
+        
+        .njtab h2, .njtab h1
+        {
+          font-weight:bold;
+          text-align:center;
+        }
+        
+        .njtab h1
+        {
+              color:#000000;
+            margin:4px 0px 15px;
+        }
+        
+    .njtab strong
+        {
+          font-weight:normal;
+        }
+        
+    .njtab dt strong,
+    .njtab h3 strong
+        {
+          font-weight: bold !important;
+        }
+        
+        .njtab dt
+        {
+          font-weight:bold !important;
+          padding:5px 0pt 2px;
+        }
+      
+    .buttons { 
+            border:none; 
+            padding: 3px;
+        }
+
+   	.red {
+		font-weight:bold;
+		color:#f00;
+	}
+  </style>
+  
+  <!--[if lte IE 6]>
+   <style>
+       .njtab h1 {
+            margin:0px 0px 15px 0px !important;
+        }
+
+      .njtab{
+            padding:0px 0px 6px !important;
+        }
+  </style>
+<![endif]-->
+  <script type="text/javascript" src="../js/ninja.js"></script>
+<div id="nfouterdiv">
+<div class="menu">
+  <ul>
+    <li onclick="easytabs('1', '1');" onfocus="easytabs('1', '1');" onmouseover="return false;"  title="" id="tablink1"><span id="info" class="tabtxt">General Info</span></li>
+    <li onclick="easytabs('1', '2');" onFocus="easytabs('1', '2');" onmouseover="return false;"  title="" id="tablink2"><span id="inst" class="tabtxt">Instructions</span></li>
+    <li onclick="easytabs('1', '3');" onFocus="easytabs('1', '3');" onmouseover="return false;"  title="" id="tablink3"><span id="change" class="tabtxt">Changelog & Version Info</span></li>
+  </ul>
+</div>
+<div id="tabcontent1" class="njtab">
+    <h1>Ninja Shadowbox</h1>
+    <div class="inner">
+    <h2>Shadowbox f&#252;r Joomla!</h2>
+    <center><img src="../images/logo.jpg" alt="Ninja Shadowbox"></center>
+    <p><b>Erstellt von:</b> Richie Mortimer &amp; Uwe Walter</p>
+    <p><b>Shadowbox von:</b> <a href="http://mjijackson.com/shadowbox/index.html">Michael J. I. Jackson</a></p>
+    <p><b>PHP Code Lizenz: </b>  <a href="http://creativecommons.org/licenses/LGPL/2.1/"> CC-GNU LGPL</a></p>
+    <p><b>JS Code Lizenz: </b> <a rel="license" href="http://www.gnu.org/licenses/"> GNU LGPL </a></p>
+    <p><b>Shadowbox Lizenz: </b> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share</a></p>
+    <p><b>CSS und Bilder: </b> Copyright NinjaForge, 2008</p>
+    <p><b>Herausgegeben/Copyright:</b>  <a href="http://ninjaforge.com">NinjaForge.com</a>, &copy; 2007 Michael J. I. Jackson</p> 
+    <p><b>Support:</b> Falls Sie Support f&#252;r diese Erweiterung ben&#246;tigen, besuchen Sie bitte die <a href="http://ninjaforge.com/index.php?option=com_fireboard&Itemid=39">NinjaForge Foren</a>.</p>
+    <p><b>Sie m&#246;gen diese Erweiterung?</b> Dann bewerten Sie sie bitte auf <a href="http://extensions.joomla.org">Joomla.org</a></p>
+    <h3>Beschreibung:</h3>
+    <p>Ninja Shadowbox macht Michael J.I. Jackson's Shadowbox f&#252;r Joomla verf&#252;gbar.</p> 
+    <p>Die Shadowbox ist eine cross-browser, platform&#252;bergreifende, sauber kodierte und vollst&#228;ndig dokumentierte Multimedia Applikation, komplett in JavaScript umgesetzt. Durch die Verwendung der Shadowbox k&#246;nnen Webmaster eine breite Palette von Medien in allen g&#228;ngingen Browsern anzeigen lassen, ohne den Besucher von der verlinkenden Seite fortschicken zu m&#252;ssen.</p>
+    <p>Ninja Shadowbox erleichtert Ihnen die Arbeit mir der Shadowbox deart, dass Sie das Verhalten der Shadowbox &#252;ber die erweiterten Optionen einfach, schnell und benutzerfreundlich im Adminbereich Ihrer Webseite beinflussen k&#246;nnen.</p> 
+    <p>Ninja Shadowbox stellt Ihnen die Shadowbox in vollem Umfang zur Verf&#252;gung und gibt Ihnen die Flexibilit&#228;t, hinsichtlich der von Ihnen anderweitig verwendeten Joomla Erweiterungen und deren JavaScript Frameworks anzupassen.</p>
+</div></div>
+<div id="tabcontent2" class="njtab">
+
+    <h1>Bedienungsanleitung</h1>  
+    <div class="inner">   
+    <h3>Basis Setup</h3>
+    <ul>
+        <li>Installieren Sie das Modul</li>
+        <li>W&#228;hlen Sie einen CSS Skin</li>
+        <li>W&#228;hlen Sie sich Ihren JavaScript Framework</li>
+        <li>W&#228;hlen eine von 32 Sprachen</li>
+        <li>Ver&#246;ffentlichen Sie das Modul</li>
+    </ul>
+    <h3>Tipps und fortgeschrittene Anwendung FAQ</h3>
+    <dl>
+        <dt>Ich m&#246;chte auch die anderen Optionen der Shadowbox verwenden, wie mache ich das?</dt>
+        <dd>Wir haben alle n&#252;tzlichen Optionen, welche die Shadowbox zu bieten hat, implementiert. Aktivieren Sie einfach die &#132;Erweiterten Parameter&#148; in der Modulverwaltung und w&#228;hlen Sie Ihre bevorzugten Einstellungen aus.</dd>
+        <dt>Ich verstehe das nicht. Ich hab's ver&#246;ffentlicht, aber mit meinen Bildern passiert nichts.</dt>
+        <dd>Sie m&#252;ssen, sofern noch nicht durch eine andere Erweiterung geschehen, den Shadowbox Code laden. Dies k&#246;nnen Sie in der Modulverwaltung im Adminbereich einstellen. F&#252; weitere Informationen besuchen Sie bitte die Webseite des Entwicklers (<a href="http://mjijackson.com/shadowbox/doc/usage.html">Usage Instructions</a>)</dd>
+        <dt>Ich m&#246;chte meinen eigenen Skin verwenden, wie mache ich das?</dt>
+        <dd>Hierf&#252;r gibt es den Paramester &#132;custom&#148; im Dropdownmen&#252; der Skin-Einstellung. Speichern Sie Ihren eigenen Skin einfach in einem Verzeichnis, welches <b>custom</b> hei&#223;en muss, und laden Sie es dann auf Ihren Webspace ins folgende Verzeichnis hoch: ~/modules/mod_ninja_shadowbox/js/skin</dd>
+    </dl>
+    <h3>Fehlersuche FAQ</h3>
+    <dl>
+        <dt>Meine Videos werden nicht abgespielt.</dt>
+        <dd>Um Videos abspielen zu k&#246;nnen, m&#252;ssen Sie zun&#228;chst den passenden Player laden. Hierzu stellen Sie je nach Medium in der Modulverwaltung die Auswahl bei <b>swf, flv, qt oder wmp</b> auf an. N&#228;here Informationen erhalten Sie, wenn Sie mit der Maus &#252;ber die Player-Namen fahren. Im Falle eines Flash Videos (FLV) muss zus&#228;tzlich auch die Datei </b>flvplayer.swf</b> geladen sein. Dies k&#246;nnen Sie in den &#132;Erweiterten Parametern&#148; einstellen, welche dann auch &#132;aktiviert&#148; sein m&#252;ssen.</dd>
+        <dt>Was wenn meine Seite ein v&#246;llig anderes Design hat und zu keinem der mitgelieferten Skins passt?</dt>
+        <dd>Wir haben Ihnen die Option bereitgestellt, ein eingenen CSS Skin zu verwenden. Laden Sie ihn einfach via (S)FTP in den Ordner ~/modules/mod_ninja_shadowbox/js/skin hoch. Ihr Skin muss jedoch in einem Verzeichnis mit dem Namen <b>custom</b> gespeichert sein, da Sie ihn ansonsten licht laden k&#246;nnen.</dd>
+        <dt>Es treten JavaScript Fehler auf.</dt>
+        <dd>JavaScript Fehler werden f&#252;r gew&#246;hnlich durch Inkompatibilit&#228;ten zwischen verschiedenen Framewors ausgel&#246;st. W&#228;hlen Sie in diesem Falle einfach einen anderen JavaScript Framework auf und versuchen Sie es erneut.</dd>
+    </dl>
+</div></div>
+
+<div id="tabcontent3" class="njtab">
+<h1>Changelog & Versionsinfo</h1> 
+<div class="inner">
+
+<p><b>Version:</b> 2.0.9</p>
+<p><b>Datum:</b> 12th December 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Added image map support</li>
+  </ul>
+
+<p><b>Version:</b> 2.0.8</p>
+<p><b>Datum:</b> 28th November 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Made emulate IE7 the default.</li>
+  <li>Fixed FLV videos.</li>
+  </ul>
+  
+<p><b>Version:</b> 2.0.7</p>
+<p><b>Datum:</b> 16th September 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Implemented an option to force IE8 to emulate IE7 rendering.</li>
+  </ul>
+
+<p><b>Version:</b> 2.0.6</p>
+<p><b>Datum:</b> September 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Replaced jquery lib. Now using 1.3.1</li>
+  </ul>
+  
+<p><b>Version:</b> 2.0.5</p>
+<p><b>Datum:</b> M&#228;rz 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Bugfix.</li>
+  </ul>
+
+<p><b>Version:</b> 2.0.4</p>
+<p><b>Datum:</b> M&#228;rz 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Alte Option "overlayBgImage" entfernt.</li>
+  <li>Fehlende Option "slideshowDelay" hinzugef&#252;gt.</li>
+  </ul>
+
+<p><b>Version:</b> 2.0.3</p>
+<p><b>Datum:</b> Februar 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Russisches Sprachpaket hinzugef&#252;gt</li>
+  </ul>
+
+<p><b>Version:</b> 2.0.2</p>
+<p><b>Datum:</b> Januar 2009 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>MooTools 1.11 Framework entfernt.</li>
+  </ul>
+
+<p><b>Version:</b> 2.0.1</p>
+<p><b>Datum:</b> Dezember 2008 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Shadowbox Sprache D&#228;nisch hinzugef&#252;gt</li>
+  </ul>
+
+<p><b>Version:</b> 2.0</p>
+<p><b>Datum:</b> November 2008 </p>
+<p><b>Status:</b> Stable </p>
+  <ul>
+  <li>Multilingualit&#228;t hinzugef&#252;gt</li>
+  <li>Shadobox Core Bibliothek jetzt v2.0</li>
+  <li>jQuery Framework jetzt v1.2.6 <span class="red">L&#228;uft im Kompatibilit&#228;tsmodus!!!</span></li>
+  <li>YUI Framework jetzt v2.6.0</li>
+  <li>Prototype Framework now 1.6.0.3 <span class="red">Kollidiert mit dem JavaScript &#132;ja.rightcol.js&#148; im Joomla! Basistemplate &#132;JA_Purity&#148; !!!</span></li>
+  <li>Dojo Framework jetzt v1.2.2</li>
+  <li>Frei zus&#228;tzliche CSS Skins hinzugef&#252;gt.</li>
+  <li>CSS Einzel-Skripte entfernt.</li>
+  <li>MooTools Framework komplett entfernt, weil Joomla! 1.5.x bereits die v1.11 l&#228;dt.</li>
+  </ul>
+
+<p><b>Version:</b> 1.4</p>
+<p><b>Datum:</b> Juni 2008 </p>
+<p><b>Status:</b>Stable </p>
+  <ul>
+  <li>Laden der Frameworks hinzugef&#252;gt.</li>
+  <li>Bugfixed f&#252;r fehlenden Hinweis &#132;Lade Bild&#148;</li>
+  <li>PnP Funktionalit&#228;t hinzugef&#252;gt - CSS an per Grundeinstellung</li>
+  </ul>
+  
+<p><b>Version:</b> 1.3</p>
+<p><b>Datum:</b> April 2008 </p>
+<p><b>Status:</b> </p>
+  <ul>
+  <li>Bugfix Release</li>
+  </ul>
+  
+<p><b>Version:</b> 1.2</p>
+<p><b>Datum:</b> April 2008 </p>
+<p><b>Status:</b> </p>
+  <ul>
+  <li>Plugin wird jetzt im Adminbereich nicht mehr geladen.</li>
+  </ul>
+  
+<p><b>Version:</b> 1.1</p>
+<p><b>Datum:</b> April 2008 </p>
+<p><b>Status:</b> </p>
+  <ul>
+  <li>Plugin funktioniert jetzt auf allen Seiten.</li>
+  <li>Media Player f&#252;r das Abspielen von .flv Filmen hinzugef&#252;gt.</li>
+  <li>Quellcodebereinigung</li>
+  </ul>
+  
+<p><b>Version:</b> 1.0</p>
+<p><b>Datum:</b> April 2008 </p>
+<p><b>Status:</b> Initial Release </p>
+  <ul>
+  <li>Multiframework-Unterst&#252;tzung</li>
+  <li>Erweiterte Einstellungen</li>
+  <li>Joomla 1.0 + 1.5 Module oder Plugin</li>
+  <li>W3C konformer CSS und HTML Quellcode</li>
+  </ul>
+
+
+</div></div></div><br />
+<center>
+<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img class="buttons" alt="Creative Commons License" src="../images/byncsa.png" /></a>
+<a href="http://creativecommons.org/licenses/LGPL/2.1/"><img  class="buttons" alt="CC-GNU GPL" src="../images/gnugpl.png" /></a>
+<br /><br /><br />
+</center>
+</body>
+</html>

@@ -1,0 +1,119 @@
+/**
+** This file assume the good working conditions
+** No styling (color, background,...) should be made here, only positionning and management
+**/
+
+div.maximenuCKV ul.maximenuCK {
+    clear:both;
+    position : relative;
+    z-index:999;
+}
+
+
+div.maximenuCKV ul.maximenuCK > ul {
+    clear:both;
+    padding : 0;
+    margin : 0;
+}
+
+div.maximenuCKV ul.maximenuCK .moduletable {
+
+}
+
+div.maximenuCKV ul.maximenuCK li.maximenuCK {
+    /*float:left;*/
+    position:relative;
+    text-align : left;
+    padding : 0;
+    margin : 0;
+}
+
+div.maximenuCKV ul.maximenuCK li.maximenuCK img {
+    /*float:left;*/
+}
+
+div.maximenuCKV ul.maximenuCK li.maximenuCK a,
+div.maximenuCKV ul.maximenuCK li.maximenuCK span.separator {
+    display:block;
+    float : none !important;
+    float : left;
+    position:relative;
+}
+
+div.maximenuCKV ul.maximenuCK2 li.maximenuCK a {
+    float : none !important;
+}
+
+div.maximenuCKV ul.maximenuCK li ul.maximenuCK2 {
+    display:block;
+    z-index:11000;
+    clear:left;
+    margin:0;
+    padding:0;
+    text-align : left;
+    position : static;
+}
+
+div.maximenuCKV ul.maximenuCK li ul li.maximenuCK {
+    text-align : left;
+    position : relative;
+    z-index : 11001;
+    padding:0;
+
+}
+
+div.maximenuCKV ul.maximenuCK li li.maximenuCK a {
+    display: block;
+    padding : 0;
+    margin : 0;
+}
+
+div.maximenuCKV div.maximenuCK2 {
+    float : left;
+    margin : 0;
+    padding : 0;
+}
+
+div.maximenuCKV div.clr {
+    clear : both;
+    visibility : hidden;
+}
+
+/*** child items ***/
+div.maximenuCKV ul.maximenuCK li div.floatCK {
+    position : absolute;
+    left: -999em;
+    padding : 0;
+    margin : 0;
+}
+
+div.maximenuCKV div.floatCK ul, div.maximenuCKV div.floatCK ul li {
+    position : static;
+    height : 100%;
+}
+
+
+/**
+** Show sub menu if mootools is off - Vertical style
+**/
+div.maximenuCKV ul.maximenuCK li:hover div.floatCK div.floatCK, div.maximenuCKV ul.maximenuCK li:hover div.floatCK:hover div.floatCK div.floatCK,
+div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK div.floatCK, div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK.sfhover div.floatCK div.floatCK {
+left: -999em;
+}
+
+div.maximenuCKV ul.maximenuCK li:hover div.floatCK, div.maximenuCKV ul.maximenuCK li:hover div.floatCK li:hover div.floatCK, div.maximenuCKV ul.maximenuCK li:hover div.floatCK li:hover div.floatCK li:hover div.floatCK,
+div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK, div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK li.sfhover div.floatCK, div.maximenuCKV ul.maximenuCK li.sfhover div.floatCK li.sfhover div.floatCK li.sfhover div.floatCK {
+left: auto;
+}
+
+div.maximenuCKV div.maximenuCK_mod ul {
+left : auto;
+}
+
+
+
+
+
+
+
+

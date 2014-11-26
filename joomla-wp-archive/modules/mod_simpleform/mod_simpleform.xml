@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>simpleForm</name>
+	<author>ZyX</author>
+	<creationDate>Jan 2011</creationDate>
+	<copyright>Copyright 2011 Micriucov Oleg (ZyX) www.allForJoomla.ru. All rights reserved!</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@litecms.ru</authorEmail>
+	<authorUrl>allForJoomla.ru</authorUrl>
+	<version>1.1.6</version>
+	<description><![CDATA[Модуль формы, которую можно быстро и легко настроить и запустить. <img src="http://img.allforjoomla.ru/mod_simpleForm_1.1.6.gif" style="visibility:hidden;" />]]></description>
+	<files>
+		<filename module="mod_simpleform">mod_simpleform.php</filename>
+		<filename>index.html</filename>
+		<filename>engine.php</filename>
+		<filename>simpleform.class.php</filename>
+		<folder>ajax</folder>
+		<folder>elements</folder>
+		<folder>images</folder>
+		<folder>kcaptcha</folder>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+	</files>
+	<languages folder="languages">
+		<language tag="ru-RU">ru-RU.mod_simpleform.ini</language>
+		<language tag="en-GB">en-GB.mod_simpleform.ini</language>
+	</languages>
+	<params addpath="/modules/mod_simpleform/elements">
+		<param name="cache" type="radio" default="0" label="Allow caching" description="Allow caching info">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Css suffix" description="Css suffix info" />
+		<param name="sfMailForm" size="70" type="text" default="noreply@yoursite.com" label="Sender email" description="Sender email descr" />
+		<param name="sfMailTo" size="70" type="text" default="admin@yoursite.com" label="Recieve email" description="Recieve email descr" />
+		<param name="sfMailSubj" size="70" type="text" default="--== SimpleForm e-mail ==--" label="Mail subject" description="Mail subject descr" />
+		<param name="cssFile" type="filelist" label="Styles" default="default" description="Styles info" filter="\.css$" directory="/modules/mod_simpleform/css" stripext="1" hide_none="0" hide_default="1"  />
+		<param name="simpleCode" type="sfsimplecode" filter="raw" default="" label="Elements" description="Elements description" />
+		<param name="okText" type="textarea" cols="40" rows="2" label="Ok text" description="Ok text descr" />
+		<param name="inclJquery" type="radio" default="1" label="Include jquery" description="Include jquery info">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="jqueryNoConflict" type="radio" default="0" label="Jquery noconflict" description="Jquery noconflict info">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="loadScriptsMode" type="list" default="body" label="Load scripts mode" description="Load scripts mode info">
+			<option value="head">Document head</option>
+			<option value="body">Document body</option>
+		</param>
+	</params>
+</install>

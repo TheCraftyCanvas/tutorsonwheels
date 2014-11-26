@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ##########################  navigation column  ########################### */
+
+#nav ul
+{
+        list-style-type:none;
+        margin:0px 0;
+}
+
+.module_content
+{
+        margin:0px 0 0px 0;
+        padding:0px 0px 10px 5px
+}
+
+.moduletable_menu
+{
+        margin:0px 0 10px 0;
+		background:#000;
+}
+
+.moduletable_js
+{
+        margin-bottom:5px;
+}
+
+#nav h3.js_heading,
+#right h3.js_heading
+{
+        position:relative;
+        display:block;
+        padding:5px 0px 0 0px ;
+        margin:0px ;
+        font-size:1.40em;
+}
+
+h3.js_heading span.backh
+{
+        padding:4px 0px 0px 10px;
+        display:block;
+}
+
+h3.js_heading span.backh1
+{
+        padding:0px 20px 8px 0px;
+        display:block;
+}
+
+h3.js_heading a
+{
+        display:block;
+        position:absolute ;
+        right:0px ;
+        top:0px;
+        padding:5px 5px 0 0;
+        text-decoration:none;
+}
+
+.no
+{
+        font-size:1px;
+}
+
+#nav h3
+{
+        font-size:1.4em;
+        margin:5px 0 6px 0;
+        font-weight:normal;
+        line-height:1.19em
+}
+
+
+#nav h3 span.backh3
+{
+        padding:0px 0px 5px 2px;
+        display:block;
+}
+
+
+/* ++++++++++++++  first level  ++++++++++++++ */
+
+#nav .moduletable-example ul.menu
+{
+        margin:0;
+        padding:0
+}
+
+ ul.menu
+{
+        list-style-type:none !important;
+        margin:0 0 0px 0px ;
+        padding: 0px 5px 20px 5px;
+
+}
+
+ .module_content ul.menu
+{
+        margin-left:-5px;
+        padding:10px 0 0 0 ;
+}
+
+ ul.menu li
+{
+        margin:0;
+}
+
+ul.menu li a:link,
+ ul.menu li a:visited
+{
+        display:block;
+        padding:7px 4px 7px 15px;
+        text-decoration:none;
+}
+
+ ul.menu li.active a:link,
+ ul.menu li.active a:visited
+{
+        font-weight:bold;
+}
+
+ ul.menu li a:hover,
+ ul.menu li a:active,
+ ul li a:focus
+{
+
+}
+
+
+
+/* ++++++++++++++  second level  ++++++++++++++ */
+ ul.menu li ul
+{
+        margin:0 ;
+        padding:0 ;
+}
+ ul.menu li ul li
+{
+        margin:0;
+        padding:0
+}
+
+ ul.menu li.active ul li a:link,
+ ul.menu li.active ul li a:visited
+{
+        padding:5px 10px 5px 20px ;
+        font-weight:normal;
+}
+
+
+ ul.menu li.active ul li a.active:link,
+ ul.menu li.active ul li a.active:visited
+{
+        padding:7px 10px 7px 20px ;
+}
+
+ ul li.active ul li.active a:link,
+ ul li.active ul li.active a:visited
+{
+        font-weight:bold ;
+}
+
+/* ++++++++++++++  third level  ++++++++++++++ */
+
+ ul.menu li ul li ul
+{
+        padding:5px 0 5px 0px;
+}
+
+ ul.menu li ul li ul li
+{
+
+}
+
+ul.menu li.active ul li.active ul li a:link,
+ ul.menu li.active ul li.active ul li a:visited
+{
+        padding:5px 4px 5px 30px;
+        font-weight:normal;
+}
+
+ ul.menu li.active ul li.active ul li.active a:link,
+ ul.menu li.active ul li.active ul li.active a:visited
+{
+        font-weight:bold;
+}
+
+
+.componentheading
+{
+border:1px solid #000;
+}
