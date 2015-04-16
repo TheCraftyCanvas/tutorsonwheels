@@ -1,0 +1,28 @@
+/**
+ * tccTutorTheme2012 ie-lte-7.css
+ *
+ * SEE tccTutorTheme2012_preprocess_html() in
+ * template.php for detials on how to
+ * load this or additional IE stylesheets.
+ */
+ 
+ /* ie7 */
+ img#tccTutorThemeBanner {
+ filter: alpha(opacity=40);
+ }
+ 
+#logo {
+  left:0;
+  top:-280px;
+}
+ 
+.front #block-ddblock-1 {
+  width: 580px;
+}
+ 
+ 
+h1#site-name {
+  font-size: 3.5em !important;
+}
+ 
+

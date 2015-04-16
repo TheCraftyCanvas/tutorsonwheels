@@ -130,20 +130,24 @@
 				<div class="contentwrapper"> 
 					<h1>Tutors On Wheels' Collaboration Portal is now Online!</h1>
 					<div class="col-sm-6">
-						<p>Learn more about our <a href="/online-tutoring.html">online tutoring platform</a>.</p>
+						<p>Learn more about our <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="//www.youtube.com/embed/3w_2nMvbNZY">online tutoring platform</a>.</p>
 								<strong>Requirements Checklist</strong>
 								<ul>
 									<li>Browser with Adobe FlashPlayer Installed</li>
-									<li>Reliable Internet Connection</li>
-									<li>Headphones and Microphone</li>
+									<li>Reliable Internet Connection. (<a data-toggle="modal" data-target="#speedTestModal" href="#">Check your internet speed by clicking here</a>. If your “Jitter” score is above 150 ms, you are likely to have trouble with audio or video lag or you may lose your connection completely.)</li>
+									<li>Headphones and Microphone (plugged in before start of session)</li>
 									<li>Web Cam (optional)</li>
 									<li>Username & Password*</li>
 								</ul>
+							<p>It is a good idea to log in and check out the system, prior to your first tutoring appointment. Get some idea of how it works by <a href="http://t.signauxdix.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg2BgPBHN2zhHl2Rs0vvW3LqWkM56dBKhf5Lr5GY02?t=http%3A%2F%2Ficollaborateonline.com%2Fvirtual-classroom-demo%2F&si=6292828578119680&pi=7e1c37fc-32f0-4c27-c342-79f3ee12fc46" target="_blank">entering our demo room</a>.</p>
 					</div>
 					<div class="col-sm-6">
-						<p style="margin-top:32px;">*Users must be <strong>preregistered</strong> with Tutors on Wheels in order to use the collaboration portal. If you do not have your registration info, please <a href="/contact-us.html">contact</a> an administrator at Tutors On Wheels.</p>
+						<p style="margin-top:32px;">*Users must be <strong>preregistered</strong> with Tutors on Wheels in order to use the collaboration portal. If you do not have your registration info, please <a href="/contact-us.html">contact</a> an administrator at Tutors On Wheels. Students and guests should receive an email with a unique link for their sessions.</p>
 						<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#videoModal" data-theVideo="//www.youtube.com/embed/eOoOoQ94F2U">Take a Virtual Classroom tour to learn about the portal's features here</button>
-						<p id="icollaborateSystemRequirements" style="font-style:italic;">To optimize performance, <a href="http://www.icollaborateonline.com" target="_blank">open the online collaboration center in a separate browser window by clicking here.</a></p> 
+						
+						<a href="http://my.icollaborateonline.com" target="_blank" style="display:inline-block;margin-top:10px;"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#videoModal">Tutors, start your scheduled online tutoring session</button></a>
+						<p id="icollaborateSystemRequirements" style="font-style:italic;">Please be sure you have met the system requirements at left before starting your session.</p>
+
 					</div>
 				</div><!--/.contentwrapper-->
 			</div>
@@ -162,7 +166,7 @@
 
 		<div class="container">
 			<div class="row">
-				<iframe id="icollaborate" src="http://www.icollaborateonline.com" style="width:100%;height:768px;border:none;margin:10px auto;"></iframe>
+				<iframe id="icollaborate" src="http://www.icollaborateonline.com" style="width:100%;height:1120px;border:none;margin:10px auto;"></iframe>
 			</div><!--/.row-->
 		</div><!--/.container-->
 
@@ -179,12 +183,32 @@
 }
 </style>
 <!-- Modal -->
-<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+
+<div class="modal fade" id="speedTestModal" tabindex="-1" role="dialog" aria-labelledby="speedTestModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">iCollaborate Features</h4>
+        <h4 class="modal-title" id="myModalLabel">ICollaborate: Internet Reliability & Speed Test</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="350" frameborder="0" allowfullscreen="no" src="http://ec2-54-235-70-88.compute-1.amazonaws.com:5080/icollaborate/?swf=networktesting.swf10.swf"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true" >
+  <div class="modal-dialog" style="min-width:720px;width:70%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">ICollaborate: Tutors On Wheels' Online Learning & Collaboration Platform</h4>
       </div>
       <div class="modal-body">
         <iframe width="100%" height="350" frameborder="0" allowfullscreen=""></iframe>
@@ -225,7 +249,7 @@ jQuery(document).ready(function($){
 
 	//FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
 	function autoPlayYouTubeModal(){
-	  var trigger = $("body").find('[data-toggle="modal"]');
+	  var trigger = $("body").find('[data-target="#videoModal"]');
 	  trigger.click(function() {
 	    var theModal = $(this).data( "target" );
 	    videoSRC = $(this).attr( "data-theVideo" ); 

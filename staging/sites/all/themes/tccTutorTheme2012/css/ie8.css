@@ -1,0 +1,24 @@
+/**
+ * tccTutorTheme2012 ie8.css
+ *
+ * SEE tccTutorTheme2012_preprocess_html() in
+ * template.php for detials on how to
+ * load this or additional IE stylesheets.
+ */
+
+/* ie8 */
+#logo {
+  left: 0 !important;
+}
+
+h1#site-name {
+  font-size: 3.25em !important;
+}
+
+#heading {
+  top: -140px !important;
+}
+
+#header-wrapper {
+  max-height: 205px;
+}

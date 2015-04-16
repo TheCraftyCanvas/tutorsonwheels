@@ -1,0 +1,552 @@
+/**
+ * tccTutorTheme2012 tccTutorTheme2012.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+
+
+
+
+ /********* general formatting ************/
+ h1#page-title, .in-maintenance h1#page-title {
+ margin: 0 0 .5em 0;
+ }
+ 
+ .region-sidebar .block {
+   margin-bottom: 15px; !important;
+ }
+
+ #tasks {
+   display:none;
+   visibility:hidden;
+ }
+ 
+#header-wrapper {
+  border-bottom: 1px solid #9f9f9f;
+  max-height:250px;
+}
+
+hgroup {
+width:100%;
+min-width:320px;
+position: relative;
+}
+
+#branding {
+ padding: 15px 0 10px 25px;
+ float: none;
+ display: block;
+ }
+
+#heading {
+  display:block;
+  margin-left:18%;
+  z-index:99;
+}
+
+
+  #branding hgroup {
+    margin-top: 0.8em;
+    display: block;
+    visibility: visible;
+    float: right;
+    width: 60%;
+    min-width:0;
+  }
+  #logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    float: none;
+    width: 38%;
+  }
+  #logo a {
+    display: block;
+  }
+  #logo img{
+    width: 95%;
+    max-width: 300px;
+    margin: 1em auto;
+  }  
+
+#footer-wrapper {
+   border-top: 1px solid #9f9f9f;
+}
+
+ #block-menu-menu-footer-navigation li {
+  float:left;
+  display:inline-block;
+  width:20%;
+  text-align:center;
+}
+
+#block-menu-menu-footer-navigation {
+  margin-bottom:0px;
+  font-size: x-small;
+}
+
+#subfooter {
+  font-size: xx-small;
+}
+
+.block-title {
+  font-size: 18px !important;
+  padding: 10px 0 4px 0 !important;
+}
+
+a, a:active, a:visited {
+}
+
+a:hover {
+}
+
+.article-title {
+  line-height: 100%;
+}
+
+/*********** superfish menu *********************/
+.sf-menu.sf-style-default li, .sf-menu.sf-style-default.sf-navbar {
+  min-height: 35px;
+  background: #a70101;
+  color: #ffffff;
+  font-weight: bold;
+}
+.sf-menu.sf-style-default li:hover{
+  background: #ffffff;
+  color:  #a70101;
+}
+.sf-menu.sf-style-default li:hover a, .sf-menu.sf-style-default li:hover a:hover{
+  color: #a70101;
+}
+.sf-menu.sf-style-defaul li li, .sf-menu.sf-style-default li li li {
+  background: #a70101;
+  color: #ffffff;
+}
+.sf-menu.sf-style-defaul li li:hover, .sf-menu.sf-style-default li li li:hover {
+  color: #a70101;
+  background: #ffffff;
+}
+
+#menu-bar ul > li {
+min-height: 35px;
+}
+
+#menu-bar ul > li {
+  background: #a70101;
+  color: #ffffff;
+}
+#menu-bar ul > li > a {
+  color: #ffffff;
+}
+
+#menu-bar ul > li:hover > a {
+  color: #ffffff;
+  text-shadow: 1px 1px #333;
+//  opacity: 0.4;
+}
+
+.sf-menu.sf-style-default a {
+border-top: none !important;
+}
+
+/*********** chalkboard background **************/
+ .chalkboard {
+  background: #363636;
+  color: white;
+  font-weight: bold;
+}
+.chalkboard-ledge {
+  height: 24px;
+  background: url('../images/chalkboard-ledge.png') top left repeat-x;
+  width:100%;
+  margin-bottom:10px;
+  display:inline-block;
+  clear:both;
+}
+
+#block-views-services-block-2 .view-id-services {
+  background: #363636;
+  color: white;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+
+#block-views-services-block-2 .block-content {
+  padding-bottom:22px;
+  background: url('../images/chalkboard-ledge.png') bottom left repeat-x;
+}
+
+#block-views-services-block-2 .view-id-services h3 a, #block-views-services-block-2 .view-id-services ul, #block-views-services-block-2 .view-id-services li a {
+  color: white;
+  }
+
+#block-views-services-block-2 .view-id-services .views-row {
+border-top: none;
+}
+/****** home page welcome article **********/
+#article-29 .article-content {
+font-size: 15px;
+line-height: 1.5em;
+}
+#article-29 .article-content p{
+margin-bottom: 8px;
+}
+/************* home page grid layout formatting ****************/
+.front #block-ddblock-1, .section-blog #block-ddblock-1 {
+  float: left;
+  clear: left;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.front #block-ddblock-1 div.ddblock-cycle-upright50p div.container-inner {
+  height: auto;
+}
+
+.front .region-content-aside section.block-views, .section-blog #block-views-services-block-1 {
+  float: left;
+  width: 47%;
+  margin-right: 2%;
+  display: inline-block;
+  clear: none;
+}
+
+@media (max-width: 480px) {
+  .front .region-content-aside section.block-views, .section-blog #block-views-services-block-1 {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+    display: block;
+    clear: both;
+  }
+}
+.front #block-views-services-block-1 .views-field-body a {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
+
+}
+.front #block-views-services-block-1 .view-content h3 {
+  display: none;
+  visibility: hidden;
+}
+
+.front .region-content-aside .view-services .view-content h3 {
+  display: none;
+  visibility: hidden;
+}
+
+.front #block-views-services-block-1 .view-id-services table {
+  margin-top: 0 !important;
+}
+
+.front #block-views-services-block-1 .view-id-services td {
+  width: 100%;
+}
+
+.slide-title-inner h2 {
+font-size: 16px;
+}
+
+div.ddblock-cycle-upright50p div.slide-read-more a {
+width: 60px !important;
+}
+
+.front .region-content-aside {
+padding:10px 30px;
+}
+
+.front .article {
+margin-bottom: 0;
+}
+
+.front .content-style {
+padding: 25px 30px 10px 30px;
+}
+
+/************* services page grid layout formatting ****************/
+.view-id-services table {
+margin-bottom:0px;
+}
+
+.view-id-services tr {
+  vertical-align:top;
+}
+
+.view-id-services td {
+  vertical-align:top;
+  width:33%;
+  background: #363636;
+  color: white;
+  font-weight: bold;
+}
+
+.content-inner .view-id-services .views-field-title, .content-inner .view-id-services .views-field-title a {
+  font-size:18px;
+  font-weight:bold;
+  color: #fff;
+}
+
+.page-tutoring-services-stem-in-the-classroom .views-row {
+  clear:both;
+}
+
+.page-tutoring-services-stem-in-the-classroom .view-stem-slideshow .views-field-field-imagefile {
+  float:left;
+  display:inline-block;
+  padding: 0 15px 15px 0;
+  width:30%;
+  max-width:200px;
+}
+
+.page-tutoring-services-stem-in-the-classroom  .view-stem-slideshow .views-field-body {
+  display:block;
+  float:left;
+  width:66%
+}
+
+/*********** featured-tutor block ***************/
+
+.team-member-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding:5px 0 3px 0;
+}
+.team-member-title {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+.block-region-sidebar-first .view-display-id-block .views-field-field-mugshot {
+  clear:both;
+  float:none;
+}
+
+.views-field-field-mugshot {
+  float:left;
+  display:inline-block;
+  padding: 0px 10px 10px 0;
+  width: 24%;
+}
+.views-field-field-mugshot img {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.views-row {
+padding-top:20px;
+border-top:1px solid #063;
+margin-top:20px;
+}
+.views-row-first {
+padding-top:0px;
+border-top:none;
+margin-top:0px;
+}
+.view-our-team .view-header {
+  border-bottom: double #000;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.view-our-team .views-field-field-keywords .field-content {
+  padding-left:10px;
+}
+.view-our-team .views-field-field-keywords {
+  font-size:12px;
+}
+.view-our-team .views-row {
+  clear: both;
+}
+.view-our-team .views-row .views-field-title {
+  font-weight: bold;
+  font-style: italic;
+}
+.view-our-team .views-field-nothing {
+  display: inline-block;
+  width: 72%;
+  margin-left: 1%;
+}
+/*********** testimonials ****************/
+.view-testimonials .views-row {
+  padding-bottom: 25px;
+}
+
+.view-id-testimonials .views-field-title a{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.testimonial-quote {
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.testimonial-credit {
+  margin: 0px;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+/*********** client management ************************/
+.view-tutoring-lesson-log h3 {
+border-bottom: 1px dotted #ccc;
+padding-bottom: 10px;
+}
+
+.view-tutoring-lesson-log .views-field-title {
+  font-size:16px;
+  font-weight:bold;
+  font-style: italics;
+}
+
+.view-tutoring-lesson-log .views-field {
+  clear:both;
+  padding-bottom:5px;
+  min-height: 24px;
+}
+.view-tutoring-lesson-log .views-field .views-label, .view-tutoring-lesson-log .views-field .views-content {
+  display:inline-block;
+  float:left;
+  padding-right:10px;
+}
+.view-tutoring-lesson-log .views-label{
+  font-weight:bold;
+}
+
+.view-tutoring-lesson-log .views-field-body  .field-content, .view-tutoring-lesson-log .views-field-field-homework .field-content, .view-tutoring-lesson-log .views-field-field-private-notes .field-content {
+  clear:both;
+  padding:3px 20px;
+}
+
+/************ contact us pages ******************/
+.section-contact-us .submitted {
+display:none;
+visibility:hidden;
+}
+
+/*** blog ***/
+.shareThisIconBar {
+float:right;
+display:block;
+box-shadow: 5px 5px 5px #888888;
+padding:5px 5px 0 5px;
+border:1px solid #888888;
+clear:both;
+}
+.article-blog-post-story .submitted, .view-id-blog .submitted {
+  font-style:italic;
+  padding: 2px 0 10px 5px;
+}
+
+#block-views-blog-block-1 {
+padding-top: 20px;
+border-top: 1px solid #063;
+margin-top: 20px;
+}
+
+.article-clear {
+clear:both;
+width:100%;
+display:inline-block;
+}
+
+.article-blog-post-story .field-name-body, .view-id-blog .views-field-body {
+  line-height:1.8em;
+}
+
+
+/***** call to action view *****/
+.view-call-to-action {
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 5px 5px #aaa;
+  border: 3px solid #006633;
+  border-radius: 20px;
+  padding: 10px 2.5%;
+}
+.view-call-to-action .views-row {
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+  border-top: double;
+  text-align: center;
+}
+.view-call-to-action .views-row.views-row-first {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+.view-call-to-action .views-field.views-field-title {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 3px 2px #dedede;
+  text-align: center;
+  margin-bottom: 5px;  
+  color: #333;
+}
+.view-call-to-action .views-field-field-action-image.call-out-image {
+  float: left;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+.view-call-to-action .views-field-field-action-image.call-out-image img{
+  width: 150px !important;
+  height: auto;
+  margin: auto;
+}
+.view-call-to-action .views-field.views-field-body {
+  vertical-align: top;
+  font-size: 16px;
+  width: auto;
+  padding: 10px 10px 0;
+  font-weight: bold;
+  text-align: left;
+}
+.view-call-to-action .views-field.views-field-field-action-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+.view-call-to-action .views-field.views-field-field-action-link .field-content a, .view-call-to-action .views-field.views-field-field-action-link .field-content a:visited, .view-call-to-action .views-field.views-field-field-action-link .field-content a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+
+/**** you tube video wrappers ****/
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom: 20px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

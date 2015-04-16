@@ -1,0 +1,1 @@
+<?php require_once('site-3rdparty-settings.php'); ?>
